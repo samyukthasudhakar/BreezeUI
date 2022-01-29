@@ -16,5 +16,4 @@ a:hover{
 
 button:hover{
     cursor:pointer;
-    background-color: var(--clr-grey);
 }

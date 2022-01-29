@@ -1,0 +1,67 @@
+.btn{
+    padding:8px;
+    margin:4px;
+    width:9rem;
+    border-radius: 3px;
+    border:none;
+}
+
+/*color buttons*/
+.blue-btn{
+    background-color: var(--clr-blue);
+    border: solid 3px var(--clr-blue);
+}
+
+.green-btn{
+    background-color: var(--clr-green);
+    border: solid 3px var(--clr-green);
+}
+
+.red-btn{
+    background-color: var(--clr-red);
+    border: solid 3px var(--clr-red);
+}
+
+.orange-btn{
+    background-color: var(--clr-orange);
+    border: solid 3px var(--clr-orange);
+}
+
+/*secondary style button*/
+.secondary-btn{
+    background-color: var(--clr-white);
+}
+
+/*link buttons*/
+.link-btn{
+    padding:8px;
+    margin:2rem;
+    width:9rem;
+    border-radius: 3px;
+    border:none;
+}
+
+.solid-link-btn{
+    background-color: var(--clr-red);
+}
+
+.outline-link-btn{
+    border:solid 2px var(--clr-red);
+}
+
+/*icon-buttons*/
+.icon-btn{
+    font-size:2rem;
+    cursor:pointer;
+    margin:1rem;
+}
+
+/*float-action-button*/
+.float-btn-action{
+    width:3rem;
+    height:3rem;
+    background-color: var(--clr-peach);
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 50%;
+}
