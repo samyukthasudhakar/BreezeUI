@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel='icon' href="assets/images/logo-sm.png">
+    <title>BreezeUI | Documentation</title>
+</head>
+<body>
+    <header class="flex-space-btwn">
+        <div class="flex-center">
+            <img class="header-logo" src="assets/images/logo-lg.png">
+            <span class="logo-name">BreezeUI</span>
+        </div>
+
+        <nav>
+            <a class="header-link" href="index.html">Home</a>
+            <a class="header-link" href="docs.html">Documentation</a>
+            <a class="header-link link-icon icon" href="https://github.com/samyukthasudhakar/BreezeUI"><i class="fa fa-github"></i></a>
+        </nav>
+    </header>
+
+    <div class="flex-layout container">
+        <!--aside bar to access different components-->
+        <aside class="flex-column aside-menu">
+            <span class="aside-menu-heading">Components</span>
+            <a class="aside-menu-link" href="#alerts">Alerts</a>
+            <a class="aside-menu-link" href="#avatar">Avatar</a>
+            <a class="aside-menu-link" href="">Badge</a>
+            <a class="aside-menu-link" href="">Button</a>
+            <a class="aside-menu-link" href="">Card</a>
+            <a class="aside-menu-link" href="">Image</a>
+            <a class="aside-menu-link" href="">Input</a>
+        </aside>
+
+        <div class="flex-column component-listing">
+            <!--Alert Component-->
+            <section id="alerts" class="component-section">
+                <div class="component-container">
+                    <h2 class="component-heading">Alerts</h2>
+                    <span class="component-description">
+                        Alerts are notifications that keeps the user informed of the status of the system, 
+                        which may or may not require the user to respond. 
+                        This includes general updates, errors, and warnings.
+                    </span>
+
+                    <h3 class="component-variant-heading">Primary Alert</h3>
+                    <div class="alert-box alert-primary">
+                        A primary alert example.
+                    </div>
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=htmlmixed&width=730&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert-box%2520alert-primary%2522%253E%250A%2509A%2520primary%2520alert%2520example%250A%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                    style="width: 730px; height: 226px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                    <h3 class="component-variant-heading">Secondary Alert</h3>
+                    <div class="alert-box alert-secondary">
+                        A seconday alert example.
+                    </div>
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert-box%2520alert-secondary%2522%253E%250A%2509A%2520seconday%2520alert%2520example.%250A%253C%252Fdiv%253E"
+                    style="width: 680px; height: 226px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                    <h3 class="component-variant-heading">Success Alert</h3>
+                    <div class="alert-box alert-success">
+                        <i class="fa fa-check-circle"></i> A success alert example.
+                    </div>
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=htmlmixed&width=695&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert-box%2520alert-success%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fa%2520fa-check-circle%2522%253E%253C%252Fi%253E%2520A%2520success%2520alert%2520example.%250A%253C%252Fdiv%253E"
+                    style="width: 695px; height: 226px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                    <h3 class="component-variant-heading">Danger Alert</h3>
+                    <div class="alert-box alert-danger">
+                        <i class="fa fa-exclamation-triangle"></i> A danger alert example.
+                    </div>
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=htmlmixed&width=725&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert-box%2520alert-danger%2522%253E%250A%2509%253Ci%2520class%253D%2522fa%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%2520A%2520danger%2520alert%2520example.%250A%253C%252Fdiv%253E"
+                    style="width: 730px; height: 230px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                    <h3 class="component-variant-heading">Warning Alert</h3>
+                    <div class="alert-box alert-warning">
+                        <i class="fa fa-exclamation-triangle"></i> A warning alert example.
+                    </div>
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=htmlmixed&width=757.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert-box%2520alert-warning%2522%253E%250A%2509%253Ci%2520class%253D%2522fa%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%2520A%2520warning%2520alert%2520example.%250A%253C%252Fdiv%253E"
+                    style="width: 757px; height: 226px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                    <h3 class="component-variant-heading">Alert with cancel button</h3>
+                    <div id="alert-cancel" class="alert-box alert-primary flex-space-btwn">
+                        An alert example with cancel button.
+                        <button class="alert-cancel-btn"><i class="fa fa-close"></i></button>
+                    </div>
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=htmlmixed&width=730&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520id%253D%2522alert-cancel%2522%2520class%253D%2522alert-box%2520alert-primary%2522%253E%250A%2509An%2520alert%2520example%2520with%2520cancel%2520button.%250A%2520%2520%2509%253Cbutton%2520class%253D%2522alert-cancel-btn%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-close%2522%253E%253C%252Fi%253E%2509%2509%250A%2520%2520%2509%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                    style="width: 746px; height: 338px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=javascript&width=734&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252F%2520javascript%2520code%2520block%250A%250AcancelBtn%2520%253D%2520document.querySelector%28%2522.alert-cancel-btn%2522%29%253B%250AalertContainer%2520%253D%2520document.querySelector%28%2522%2523alert-cancel%2522%29%253B%250A%250AcancelBtn.addEventListener%28%2522click%2522%252C%28%29%253D%253E%257B%250A%2520%2520%2520%2520alertContainer.style.display%253D%2522none%2522%253B%250A%257D%29%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                    style="width: 746px; height: 338px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+
+            <!--Avatar Component-->
+            <section id="avatar" class="component-section">
+                <div class="component-container">
+                    <h2 class="component-heading">Avatar</h2>
+                    <span class="component-description">Avatar can be used to show user's profile picture on profile information page.</span>
+
+                    <h3 class="component-variant-heading">Image Avatar</h3>
+                    <div class="avatar-holder">
+                        <img class="avatar" src="assets/images/cat-profile-1.png" alt="cat profile image">
+                        <img class="avatar" src="assets/images/cat-profile-2.png" alt="cat profile image">
+                        <img class="avatar" src="assets/images/cat-profile-3.png" alt="cat profile image">
+                        <img class="avatar" src="assets/images/cat-profile-4.png" alt="cat profile image">
+                        <img class="avatar" src="assets/images/cat-profile-5.png" alt="cat profile image">
+                        <img class="avatar" src="assets/images/cat-profile-6.png" alt="cat profile image">
+                    </div>
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=htmlmixed&width=730&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar-holder%2522%253E%250A%2509%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522assets%252Fimages%252Fcat-profile-1.png%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522cat%2520profile%2520image%2522%253E%250A%253C%252Fdiv%253E"
+                    style="width: 730px; height: 245px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                    <h3 class="component-variant-heading">Different Sized Avatars</h3>
+                    <div class="avatar-holder">
+                        <img class="avatar avatar-xs" src="assets/images/cat-profile-1.png" alt="cat profile image">
+                        <img class="avatar avatar-sm" src="assets/images/cat-profile-1.png" alt="cat profile image">
+                        <img class="avatar avatar-md" src="assets/images/cat-profile-1.png" alt="cat profile image">
+                        <img class="avatar" src="assets/images/cat-profile-1.png" alt="cat profile image">
+                        <img class="avatar avatar-lg" src="assets/images/cat-profile-1.png" alt="cat profile image">
+                    </div>
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=htmlmixed&width=767.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar-holder%2522%253E%250A%2509%253Cimg%2520class%253D%2522avatar%2520avatar-xs%2522%2520src%253D%2522assets%252Fimages%252Fcat-profile-1.png%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522cat%2520profile%2520image%2522%253E%250A%2509%253Cimg%2520class%253D%2522avatar%2520avatar-sm%2522%2520src%253D%2522assets%252Fimages%252Fcat-profile-1.png%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522cat%2520profile%2520image%2522%253E%250A%2509%253Cimg%2520class%253D%2522avatar%2520avatar-md%2522%2520src%253D%2522assets%252Fimages%252Fcat-profile-1.png%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522cat%2520profile%2520image%2522%253E%250A%2509%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522assets%252Fimages%252Fcat-profile-1.png%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522cat%2520profile%2520image%2522%253E%250A%2509%253Cimg%2520class%253D%2522avatar%2520avatar-lg%2522%2520src%253D%2522assets%252Fimages%252Fcat-profile-1.png%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522cat%2520profile%2520image%2522%253E%250A%253C%252Fdiv%253E"
+                    style="width: 767px; height: 393px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                    <h3 class="component-variant-heading">Text Avatars</h3>
+                    <div class="avatar-holder">
+                        <div class="avatar-text avatar-xs"><span>SS</span></div>
+                        <div class="avatar-text avatar-sm"><span>SS</span></div>
+                        <div class="avatar-text avatar-md"><span>SS</span></div>
+                        <div class="avatar-text"><span>SS</span></div>
+                        <div class="avatar-text avatar-lg lg-text-padding"><span>SS</span></div>
+                    </div>
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=htmlmixed&width=767.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar-holder%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522avatar-text%2520avatar-xs%2522%253E%253Cspan%253ESS%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522avatar-text%2520avatar-sm%2522%253E%253Cspan%253ESS%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522avatar-text%2520avatar-md%2522%253E%253Cspan%253ESS%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522avatar-text%2522%253E%253Cspan%253ESS%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522avatar-text%2520avatar-lg%2520lg-text-padding%2522%253E%253Cspan%253ESS%253C%252Fspan%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 767px; height: 300px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+            </section>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+.alert-box{
+    width:30rem;
+    padding:0.5rem;
+    border-radius:3px;
+}
+
+.alert-primary{
+    background-color: var(--clr-blue);
+}
+
+.alert-secondary{
+    background-color: var(--clr-grey);
+}
+
+.alert-success{
+    background-color: var(--clr-green);
+}
+
+.alert-danger{
+    background-color: var(--clr-red);
+}
+
+.alert-warning{
+    background-color: var(--clr-orange);
+}
+
+.alert-cancel-btn{
+    border-radius: 50%;
+    width:1.5rem;
+    height:1.5rem;
+    background-color: transparent;
+    border:none;
+}

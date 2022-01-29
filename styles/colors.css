@@ -1,0 +1,12 @@
+:root{
+
+    /*background colors*/
+    --clr-blue:#B9eAed;
+    --clr-grey:#d9e9fa;
+    --clr-green:#c7e8b5;
+    --clr-red:#ff6961;
+    --clr-orange:#ffb347;
+
+    /*text-accent colors*/
+    --txt-highlight:#0096FF;
+}
