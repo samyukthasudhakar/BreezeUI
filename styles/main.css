@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@200&display=swap');
+@import url(reset.css);
+@import url(/styles/colors.css);
+@import url(/styles/docs.css);
+@import url(/styles/components/component.css);
+@import url(/styles/components/alerts.css);
+@import url(/styles/components/avatar.css);
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+/*header styling*/
+header{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    height:12vh;
+    align-items:center;
+    padding:1rem;
+    font-size: larger;
+}
+
+.header-branding{
+    display:flex;
+    align-items:center;
+    justify-content:center"
+}
+
+.header-logo{
+    width:2rem;
+    height:2rem;
+    margin:0.25rem
+}
+
+nav{
+    display:inline;
+    float:right;
+}
+
+.logo-name{
+    font-size: larger;
+}
+
+.header-link{
+    margin:0.5rem;
+    font-size: large; 
+}
+
+.link-icon{
+    font-size: 1.7rem;
+}
+
+.icon:hover{
+    font-size: 1.8rem;
+}
