@@ -1,8 +1,5 @@
 .component-listing{
-    display:flex;
-    flex-direction:column;
     padding:1rem;
-    /* background-color: grey; */
     margin-top: 1.5rem;
     width:100%;
 }

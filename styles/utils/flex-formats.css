@@ -1,0 +1,24 @@
+/*default flex with row direction*/
+.flex-layout{
+    display:flex;
+}
+
+/*default flex with column direction*/
+.flex-column{
+    display:flex;
+    flex-direction: column;
+}
+
+/*flex layout with child elements aligned at center*/
+.flex-center{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+
+/*flex layout with child elements spaced out to the ends*/
+.flex-space-btwn{
+    display:flex;
+    justify-content: space-between;
+}

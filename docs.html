@@ -10,8 +10,8 @@
     <title>BreezeUI | Documentation</title>
 </head>
 <body>
-    <header>
-        <div class="header-branding">
+    <header class="flex-space-btwn">
+        <div class="flex-center">
             <img class="header-logo" src="assets/images/logo-lg.png">
             <span class="logo-name">BreezeUI</span>
         </div>
@@ -23,9 +23,9 @@
         </nav>
     </header>
 
-    <div class="container">
+    <div class="flex-layout container">
         <!--aside bar to access different components-->
-        <aside class="aside-menu">
+        <aside class="flex-column aside-menu">
             <span class="aside-menu-heading">Components</span>
             <a class="aside-menu-link" href="#alerts">Alerts</a>
             <a class="aside-menu-link" href="#avatar">Avatar</a>
@@ -36,7 +36,7 @@
             <a class="aside-menu-link" href="">Input</a>
         </aside>
 
-        <div class="component-listing">
+        <div class="flex-column component-listing">
             <!--Alert Component-->
             <section id="alerts" class="component-section">
                 <div class="component-container">
@@ -98,7 +98,7 @@
                     </iframe>
 
                     <h3 class="component-variant-heading">Alert with cancel button</h3>
-                    <div id="alert-cancel" class="alert-box alert-primary">
+                    <div id="alert-cancel" class="alert-box alert-primary flex-space-btwn">
                         An alert example with cancel button.
                         <button class="alert-cancel-btn"><i class="fa fa-close"></i></button>
                     </div>

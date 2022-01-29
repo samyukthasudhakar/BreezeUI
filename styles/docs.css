@@ -1,13 +1,9 @@
 /*body layout styling*/
 .container{
-    display:flex;
-    flex-direction: row;
     padding:1rem;
 }
 
 .aside-menu{
-    display:flex;
-    flex-direction: column;
     padding:1rem 0 1rem 0;
     margin:1rem 1rem 0 0;
     width:15vw;
