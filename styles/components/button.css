@@ -6,6 +6,10 @@
     border:none;
 }
 
+.btn:hover{
+    box-shadow: -4px -4px 10px var(--clr-white), 1px 1px 10px var(--clr-black);
+}
+
 /*color buttons*/
 .blue-btn{
     background-color: var(--clr-blue);
@@ -32,6 +36,10 @@
     background-color: var(--clr-white);
 }
 
+.secondary-btn:hover{
+    background-color: var(--clr-half-white);
+}
+
 /*link buttons*/
 .link-btn{
     padding:8px;
@@ -39,6 +47,11 @@
     width:9rem;
     border-radius: 3px;
     border:none;
+}
+
+.link-btn:hover{
+    font:large;
+    color:var(--clr-black)
 }
 
 .solid-link-btn{
@@ -54,6 +67,7 @@
     font-size:2rem;
     cursor:pointer;
     margin:1rem;
+    color: var(--clr-red);
 }
 
 /*float-action-button*/
@@ -64,4 +78,10 @@
     font-size: larger;
     font-weight: bold;
     border-radius: 50%;
+    box-shadow: -4px -4px 10px var(--clr-white), 1px 1px 10px var(--clr-black);
+}
+
+.float-btn-action:hover{
+    color:var(--clr-white);
+    cursor:pointer;
 }

@@ -6,6 +6,7 @@
 @import url(/styles/components/component.css);
 @import url(/styles/components/alerts.css);
 @import url(/styles/components/avatar.css);
+@import url(/styles/components/badge.css);
 @import url(/styles/components/button.css);
 
 *{

@@ -10,6 +10,7 @@
     max-height: 5rem;
     max-width: 5rem;
     margin:1rem;
+    box-shadow: -4px -4px 10px var(--clr-white), 1px 1px 10px var(--clr-black);
 }
 
 .avatar-text {
@@ -23,6 +24,7 @@
     background:#ccFF;
     margin:1rem;
     font-weight: bold;
+    box-shadow: -4px -4px 10px var(--clr-white), 1px 1px 10px var(--clr-black);
 }
 
 .avatar-lg{

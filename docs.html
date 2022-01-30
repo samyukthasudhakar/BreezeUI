@@ -29,7 +29,7 @@
             <span class="aside-menu-heading">Components</span>
             <a class="aside-menu-link" href="#alerts">Alerts</a>
             <a class="aside-menu-link" href="#avatar">Avatar</a>
-            <a class="aside-menu-link" href="">Badge</a>
+            <a class="aside-menu-link" href="#badge">Badge</a>
             <a class="aside-menu-link" href="#button">Button</a>
             <a class="aside-menu-link" href="">Card</a>
             <a class="aside-menu-link" href="">Image</a>
@@ -165,6 +165,63 @@
                     </iframe>
             </section>
 
+            <!--Badge Component-->
+            <section id="badge" class="component-section">
+                <div class="component-container">
+                    <h2 class="component-heading">Badge</h2>
+                    <span class="component-description">
+                        Badges are used to dispaly status information or count notification on top of other UI elements like
+                        avatars, icons and also text.
+                    </span>
+
+                    <h3 class="component-variant-heading">Status Badge</h3>
+                    <div class="flex-layout">
+                        <div class="flex-layout badge-container">
+                            <img class="avatar" src="assets/images/cat-profile-1.png" alt="cat profile image">
+                            <span class="flex-center badge active-badge"></span>
+                        </div>
+                        <div class="flex-layout badge-container">
+                            <img class="avatar badge-parent" src="assets/images/cat-profile-2.png" alt="cat profile image">
+                            <span class="flex-center badge busy-badge"></span>
+                        </div>
+                        <div class="flex-layout badge-container">
+                            <img class="avatar badge-parent" src="assets/images/cat-profile-3.png" alt="cat profile image">
+                            <span class="flex-center badge away-badge"></span>
+                        </div>
+                        <div class="flex-layout badge-container">
+                            <img class="avatar badge-parent" src="assets/images/cat-profile-4.png" alt="cat profile image">
+                            <span class="flex-center badge invisible-badge"></span>
+                        </div>
+                    </div>
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=htmlmixed&width=767.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522flex-layout%2520badge-container%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522assets%252Fimages%252Fcat-profile-1.png%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520alt%253D%2522cat%2520profile%2520image%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522flex-center%2520badge%2520active-badge%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522flex-layout%2520badge-container%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522avatar%2520badge-parent%2522%2520src%253D%2522assets%252Fimages%252Fcat-profile-2.png%2522%250A%2520%2520%2520%2520%2520%2520%2520alt%253D%2522cat%2520profile%2520image%253E%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522flex-center%2520badge%2520busy-badge%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522flex-layout%2520badge-container%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522avatar%2520badge-parent%2522%2520src%253D%2522assets%252Fimages%252Fcat-profile-3.png%2522%250A%2520%2520%2520%2520%2520%2520%2520alt%253D%2522cat%2520profile%2520image%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522flex-center%2520badge%2520away-badge%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522flex-layout%2520badge-container%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522avatar%2520badge-parent%2522%2520src%253D%2522assets%252Fimages%252Fcat-profile-4.png%2522%250A%2520%2520%2520%2520%2520%2520%2520alt%253D%2522cat%2520profile%2520image%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522flex-center%2520badge%2520invisible-badge%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                    style="width: 767px; height: 542px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                    <h3 class="component-variant-heading">Count Badge</h3>
+                    <div class="flex-layout">
+                        <div class="flex-layout badge-container">
+                            <i class="fa fa-shopping-cart icon-lg"></i>
+                            <span class="flex-center badge count-badge">7</span>
+                        </div>
+                        <div class="flex-layout badge-container">
+                            <i class="fa fa-envelope icon-lg"></i>
+                            <span class="flex-center badge count-badge">4</span>
+                        </div>
+                        <div class="flex-layout badge-container">
+                            <i class='fa fa-commenting icon-lg'></i>
+                            <span class="flex-center badge count-badge">3</span>
+                        </div>
+                    </div>
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=htmlmixed&width=767.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522flex-layout%2520badge-container%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2520icon-lg%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cspan%2520class%253D%2522flex-center%2520badge%2520count-badge%2522%253E7%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522flex-layout%2520badge-container%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-envelope%2520icon-lg%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522flex-center%2520badge%2520count-badge%2522%253E4%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522flex-layout%2520badge-container%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%27fa%2520fa-commenting%2520icon-lg%27%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522flex-center%2520badge%2520count-badge%2522%253E3%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                    style="width: 767px; height: 393px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+
             <!--Button Component-->
             <section id="button" class="component-section">
                 <div class="component-container">
@@ -205,7 +262,6 @@
                         <a class="link-btn solid-link-btn" href="">Link Button</a>
                         <a class="link-btn outline-link-btn" href="">Link Button</a>
                     </div>
-                    
                     <iframe
                     src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=htmlmixed&width=767.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%253E%250A%2520%2520%253Ca%2520class%253D%2522link-btn%2520solid-link-btn%2522%2520href%253D%2522%2522%253ELink%2520Button%253C%252Fa%253E%250A%2520%2520%253Ca%2520class%253D%2522link-btn%2520outline-link-btn%2522%2520href%253D%2522%2522%253ELink%2520Button%253C%252Fa%253E%250A%253C%252Fdiv%253E"
                     style="width: 767px; height: 245px; border:0; transform: scale(1); overflow:hidden;"
@@ -234,6 +290,8 @@
                     sandbox="allow-scripts allow-same-origin">
                     </iframe>
             </section>
+
+            
         </div>
     </div>
     <script src="app.js"></script>

@@ -17,3 +17,7 @@ a:hover{
 button:hover{
     cursor:pointer;
 }
+
+iframe{
+    margin:0.5rem;
+}
