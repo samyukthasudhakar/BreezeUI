@@ -6,6 +6,8 @@
 @import url(/styles/components/component.css);
 @import url(/styles/components/alerts.css);
 @import url(/styles/components/avatar.css);
+@import url(/styles/components/image.css);
+@import url(/styles//components/input.css);
 
 *{
     font-family: 'Open Sans', sans-serif;
@@ -20,6 +22,11 @@ header{
     align-items:center;
     padding:1rem;
     font-size: larger;
+}
+
+input:focus{
+    outline:none;
+    box-shadow: -4px -4px 10px var(--clr-white), 1px 1px 10px var(--clr-black);
 }
 
 .header-logo{
