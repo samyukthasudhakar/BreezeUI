@@ -1,9 +1,10 @@
 .btn{
     padding:8px;
     margin:4px;
-    width:9rem;
+    max-width:11rem;
     border-radius: 3px;
     border:none;
+    font-weight: bold;
 }
 
 .btn:hover{
