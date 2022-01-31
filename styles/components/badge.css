@@ -1,0 +1,50 @@
+.badge-container{
+    position:relative;
+}
+
+
+.badge{
+    width: 1rem;
+    height: 1rem;
+    font-size:  0.25rem;
+    border:solid 2px white;
+    border-radius: 50%;
+    background:var(--clr-green);
+    margin:1rem;
+    position: absolute;
+    bottom:7px;
+    right:0;
+}
+
+.active-badge{
+    background-color:green ;
+}
+
+.busy-badge{
+    background-color: red;
+}
+
+.away-badge{
+    background-color: yellow;
+}
+
+.invisible-badge{
+    background-color:grey;
+}
+
+.icon-lg{
+    font-size:3rem;
+    cursor:pointer;
+    margin:1rem;
+    color: var(--clr-red);
+}
+
+.count-badge{
+    width:1.5rem;
+    height:1.5rem;
+    top:-5px;
+    right:-10px;
+    background-color: var(--clr-green);
+    font-size:medium;
+    font-weight: bold;
+}
