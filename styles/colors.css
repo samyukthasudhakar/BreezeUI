@@ -10,9 +10,13 @@
     --clr-orange:#ffb347;
     --clr-peach:#ff6347;
     --clr-half-white:#ffe5b4;
+    --clr-btnHover:#2ab8b8;
 
     /*text-accent colors*/
     --txt-highlight:#0096FF;
     --txt-validity:#008000;
     --txt-invalidity:#ff0000;
+    --txt-linethrough:#808080;
+
+
 }
