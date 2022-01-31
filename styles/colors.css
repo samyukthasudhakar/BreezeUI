@@ -13,4 +13,6 @@
 
     /*text-accent colors*/
     --txt-highlight:#0096FF;
+    --txt-validity:#008000;
+    --txt-invalidity:#ff0000;
 }

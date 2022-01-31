@@ -1,0 +1,26 @@
+.round-img{
+    max-width: 10rem;
+    max-height: 10rem;
+    border-radius: 50%;
+}
+
+.square-img{
+    max-width: 10rem;
+    max-height: 10rem;
+    border-radius: 1rem;
+}
+
+.resize-container{
+    border:solid 2px var(--clr-grey);
+    width:10rem;
+    height:10rem;
+    max-width:30rem;
+    max-height: 30rem;
+    resize:both;
+    overflow: hidden;
+}
+
+.responsive-img{
+    max-width:100%;
+    height:auto;
+}
