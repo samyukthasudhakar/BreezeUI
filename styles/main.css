@@ -8,6 +8,8 @@
 @import url(/styles/components/avatar.css);
 @import url(/styles/components/image.css);
 @import url(/styles//components/input.css);
+@import url(/styles/components/badge.css);
+@import url(/styles/components/button.css);
 
 *{
     font-family: 'Open Sans', sans-serif;
