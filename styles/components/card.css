@@ -13,7 +13,7 @@
 
 /*vertical card styling*/
 .card-container{
-    width:20rem;
+    max-width:20rem;
     height: 25rem;
     border-radius: 3px;
     box-shadow: -2px -2px 5px var(--clr-white), 1px 1px 5px var(--clr-black);
