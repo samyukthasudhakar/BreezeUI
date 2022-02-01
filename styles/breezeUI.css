@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@200&display=swap');
 @import url(reset.css);
+@import url(/styles/utils/txt-styles.css);
 @import url(/styles/utils/flex-formats.css);
 @import url(/styles/colors.css);
+@import url(/styles/index.css);
 @import url(/styles/docs.css);
 @import url(/styles/components/component.css);
 @import url(/styles/components/alerts.css);
@@ -47,6 +49,11 @@ nav{
     font-size: larger;
 }
 
+.logo-name:hover{
+    font-size: larger;
+    color:var(--text-hover);
+}
+
 .header-link{
     margin:0.5rem;
     font-size: large; 
@@ -56,10 +63,20 @@ nav{
     font-size: 1.7rem;
 }
 
-.icon:hover{
-    font-size: 1.8rem;
-}
-
 i:hover{
     cursor:pointer;
+}
+
+footer{
+    padding:1rem;
+}
+
+.footer-icon{
+    font-size:1.5rem;
+    cursor:pointer;
+    margin:0.5rem;
+}
+
+.footer-icon:hover{
+    color:var(--text-hover);
 }

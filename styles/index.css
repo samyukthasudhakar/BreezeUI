@@ -1,0 +1,92 @@
+.home-container{
+    width:100vw;
+    height:100vh;
+    padding:0;
+    align-items: center;
+}
+
+.home-img{
+    margin:0;
+    max-width:25rem;
+    border-radius: 3px;
+}
+
+.btn-holder{
+    padding:1rem;
+    margin:1rem;
+}
+
+.solid{
+    padding:8px;
+    margin:4px;
+    max-width:11rem;
+    border-radius: 3px;
+    font-weight: bold;
+    border:solid 3px var(--clr-green);
+    background-color: var(--clr-green);
+}
+
+.outline{
+    background-color: var(--clr-white);
+}
+
+.solid:hover{
+    color:var(--clr-black);
+    box-shadow: -2px -2px 5px var(--clr-white), 1px 1px 5px var(--clr-black);
+}
+
+.outline:hover{
+    box-shadow: -2px -2px 5px var(--clr-white), 1px 1px 5px var(--clr-black);
+}
+
+.features-container{
+    margin:5rem;
+}
+
+.feature-card{
+    width:20rem;
+    height: 20rem;
+    border-radius: 3px;
+    box-shadow: -2px -2px 5px var(--clr-white), 1px 1px 5px var(--clr-black);
+    text-align: center;
+    position: relative;
+    margin:1rem;
+    
+}
+
+.feature-image{
+    align-self: center;
+    max-width: 12rem;
+    margin:1rem;
+    margin-bottom: 0;
+    border-radius:1rem;
+    display:block;
+}
+
+.feature-description{
+    align-self:center;
+    margin:0.5rem;
+}
+
+.installation-container{
+    width: 65rem;
+    align-items: space-between;
+    margin-bottom: 3rem;
+    box-shadow: -2px -2px 5px var(--clr-white), 1px 1px 5px var(--clr-black);
+    border-radius: 3px;
+}
+
+.installation-text{
+    width: 25rem;
+    margin:1rem;
+}
+
+.installation-text-content{
+    display:block;
+    margin:1rem 0;
+}
+
+.installation-code{
+    margin: 1rem;
+}
+

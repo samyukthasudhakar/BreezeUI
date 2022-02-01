@@ -17,6 +17,11 @@
     --txt-validity:#008000;
     --txt-invalidity:#ff0000;
     --txt-linethrough:#808080;
+    --text-hover:#556b2f;
+
+    /*website theme colors*/
+    --primary-clr:#8ad0a0;
+    --tertiary-clr:#def6e5;
 
 
 }

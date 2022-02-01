@@ -7,11 +7,12 @@
 a{
     text-decoration:none;
     color:black;
+    font-size:small;
 }
 
 a:hover{
     color:var(--txt-highlight);
-    font-size: large;
+    color:var(--text-hover);
 }
 
 button:hover{
