@@ -1,0 +1,191 @@
+.cards-display{
+    max-width:100%;
+    flex-wrap:wrap;
+}
+
+.card-variant-container{
+    margin:1rem 0;
+    padding:1rem;
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+}
+
+/*vertical card styling*/
+.card-container{
+    max-width:20rem;
+    height: 25rem;
+    border-radius: 3px;
+    box-shadow: -2px -2px 5px var(--clr-white), 1px 1px 5px var(--clr-black);
+    text-align: center;
+    position: relative;
+}
+
+.card-image{
+    max-width:20rem;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    position:relative;
+}
+
+.card-product-price{
+    font-weight: bold;
+    margin:5px 0;   
+}
+
+.card-product-button{
+    border:none;
+    width:20rem;
+    background-color: var(--clr-black);
+    padding:1rem;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color:var(--clr-white);
+}
+
+/*horizontal card styling*/
+.horizontal-card-container{
+    width:35rem;
+    height: 15rem;
+    border-radius: 3px;
+    box-shadow: -2px -2px 5px var(--clr-white), 1px 1px 5px var(--clr-black);
+}
+
+.horizontal-card-content{
+    width:15rem;
+    padding:1rem;
+}
+
+.horizontal-card-image{
+    width:20rem;
+    height:15rem;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.horizontal-card-button{
+    display:block;
+    background-color: var(--clr-black);
+    color: var(--clr-grey);
+    border:none;
+    padding:5px;
+    border-radius:3px;
+    margin:1rem 0;
+    width:12rem;
+    align-self: center;
+
+}
+
+.secondary-card-btn{
+    background-color: var(--clr-white);
+    border: solid 1px var(--clr-black);
+    color:var(--clr-black);
+}
+
+.price-lg{
+    font-size:large;
+    margin-right:8px;
+}
+
+.card-product-actual-price{
+    text-decoration:line-through;
+    color:var(--txt-linethrough);
+    margin:5px 0;
+}
+
+.card-offer-percent{
+    display:block;
+    color:var(--txt-linethrough);
+    font-weight: bold;
+    margin:5px 0;
+}
+
+.card-product-button:hover{
+    background-color: var(--clr-btnHover);
+    color:var(--clr-white);
+}
+
+/*badge element*/
+.card-badge{
+    position:absolute;
+    background-color: var(--clr-peach);
+    color:var(--clr-white);
+    padding:3px 4px;
+    top:7px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    width:3rem;
+    text-align: left;
+}
+
+/*dismiss element*/
+.card-dismiss{
+    position:absolute;
+    top:10px;
+    right:10px;
+    font-size:1.25rem;
+    width:1.5rem;
+    height:1.5rem;
+}
+
+.card-dismiss:hover{
+    border-radius: 50%;
+    background-color: var(--txt-linethrough);
+    
+}
+
+/*shadow card styling*/
+.shadow-card{
+    box-shadow: -4px -4px 10px var(--clr-white), 1px 1px 10px var(--clr-black);
+}
+
+/*overlay card element styling*/
+.overlay{
+    position: absolute;
+    background: var(--clr-grey);
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: var(--clr-red);
+    background-color: var(--clr-white);
+    opacity: 0.75;
+    width:20rem;
+    height: 25rem;
+}
+
+.text-overlay-content{
+    font-weight: bold;
+    position:absolute;
+    top:50%;
+    left:25%;
+    background-color:var(--clr-black);
+    color:var(--clr-white);
+    padding:5px;
+    width:10rem;
+    height:3rem;
+}
+
+/*text card styling*/
+.text-card-container{
+    width:30rem;
+    height:9rem;
+    border-radius:1rem;
+    padding:1rem;
+    background-color: var(--clr-green);
+    box-shadow: -2px -2px 5px var(--clr-white), 1px 1px 5px var(--clr-black);
+}
+
+.text-card-icon{
+    display:inline;
+    align-self:flex-end;
+    font-size:1rem;
+}

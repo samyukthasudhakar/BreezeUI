@@ -8,6 +8,7 @@
 @import url(/styles/components/avatar.css);
 @import url(/styles/components/badge.css);
 @import url(/styles/components/button.css);
+@import url(/styles/components/card.css);
 @import url(/styles/components/image.css);
 @import url(/styles//components/input.css);
 
@@ -57,4 +58,8 @@ nav{
 
 .icon:hover{
     font-size: 1.8rem;
+}
+
+i:hover{
+    cursor:pointer;
 }

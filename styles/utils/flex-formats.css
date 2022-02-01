@@ -22,3 +22,9 @@
     display:flex;
     justify-content: space-between;
 }
+
+.flex-col-space-btwn{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
