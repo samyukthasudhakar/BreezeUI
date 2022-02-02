@@ -23,5 +23,9 @@
 .aside-menu-link{
     padding:1rem;
     width:100%;
+    font-size: medium;
 }
 
+.aside-menu-link:hover{
+    font-size: large;
+}

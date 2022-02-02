@@ -4,9 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='icon' href="assets/images/logo-sm.png">
+    <link rel="stylesheet" href="styles/breezeUI.css">
     <title>BreezeUI | Home</title>
 </head>
 <body>
-    
+
+    <div class="flex-column flex-center">
+        <img class="home-img" src="assets/images/autumn-animate.svg">
+        <h1>BreezeUI</h1>
+        <span class="txt-bold">The UI Component Library of your dreams.</span>
+        <span>| Simple | Modular | Accessible |</span>
+        <div class="btn-holder">
+            <a class="solid" href="#installation">Installation</a>
+            <a class="solid outline" href="docs.html">Get Started</a>
+        </div>
+
+        <div class="flex-layout features-container">
+            <div class="flex-column feature-card">
+                <img class="feature-image img-border" src="assets/images/document.svg" alt="">
+                <h4>Well Documented</h4>
+                <span class="feature-description">Every component is well documented with examples.</span>
+            </div>
+            <div class="flex-column feature-card">
+                <img class="feature-image img-border" src="assets/images/customizable.svg" alt="">
+                <h4>Customizable</h4>
+                <span class="feature-description">Customize any part of our components to match your design needs.</span>
+            </div>
+            <div class="flex-column feature-card">
+                <img class="feature-image" src="assets/images/accessible.svg" alt="">
+                <h4>Accessible</h4>
+                <span class="feature-description">We improve accessibility for all of our components constantly.</span>
+            </div>
+        </div>
+
+        <div id="installation" class="flex-layout installation-container">
+            <div class="flex-column installation-text">
+                <h2>Installation</h2>
+                <span class="installation-text-content">Copy and paste the code in the head tag of your html document. 
+                      You can style your components by just adding class names to your html elements.
+                </span>
+                <span class="installation-text-content">To know more about the styled components and their variations, read the documentation.</span>
+            </div>
+            <div class="installation-code">
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=htmlmixed&width=546.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253Dhttps%253A%252F%252Fbreezeui.netlify.app%252Fstyles%252FbreezeUI.css%253E%250A"
+                style="width: 595px; height: 244px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <span>Illustrations powered by <a class="txt-md" href="https://storyset.com/">Storyset</a>.</span>
+        <nav>
+            <a href="https://github.com/samyukthasudhakar"><i class="fa fa-github footer-icon"></i></a>
+            <a href="https://twitter.com/samyuktha7300"><i class="fa fa-twitter footer-icon"></i></a>
+            <a href="www.linkedin.com/in/samyukthasudhakar"><i class="fa fa-linkedin footer-icon"></i></a>
+        </nav>
+    </footer>
 </body>
 </html>
