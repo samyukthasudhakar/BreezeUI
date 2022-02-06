@@ -31,7 +31,6 @@ header{
 
 input:focus{
     outline:none;
-    box-shadow: -4px -4px 10px var(--clr-white), 1px 1px 10px var(--clr-black);
 }
 
 .header-logo{
