@@ -2,11 +2,14 @@
     width:20rem;
     height:2.5rem;
     border-radius: 3px;
-    /* margin-bottom:1rem; */
     padding:1rem;
     font-size: 1rem;
     border:none;
     color:var(--clr-black);
+}
+
+.input:hover{
+    box-shadow: -4px -4px 10px var(--clr-white), 1px 1px 10px var(--clr-black);
 }
 
 .primary-input{
