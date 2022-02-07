@@ -13,6 +13,7 @@
 @import url(/styles/components/card.css);
 @import url(/styles/components/image.css);
 @import url(/styles//components/input.css);
+@import url(/styles/components/textUtilities.css);
 
 *{
     font-family: 'Open Sans', sans-serif;
@@ -51,7 +52,7 @@ nav{
 
 .logo-name:hover{
     font-size: larger;
-    color:var(--text-hover);
+    color:var(--txt-hover);
 }
 
 .header-link{
@@ -78,5 +79,5 @@ footer{
 }
 
 .footer-icon:hover{
-    color:var(--text-hover);
+    color:var(--txt-hover);
 }

@@ -1,0 +1,76 @@
+/*heading txt styling*/
+
+.h1{
+    font-size: 3rem;
+}
+
+.h2{
+    font-size: 2.5rem;
+}
+
+.h3{
+    font-size: 2rem;
+}
+
+.h4{
+    font-size: 1.5rem;
+}
+
+.h5{
+    font-size: 1.2rem;
+}
+
+.h6{
+    font-size: 0.85rem;
+}
+
+/*Paragraph size styles*/
+.p-lg{
+    font-size: 1.5rem;
+}
+
+.p-md{
+    font-size: 1.25rem;
+}
+
+.p-sm{
+    font-size: 1rem;
+}
+
+.p-xs{
+    font-size: 0.75rem;
+}
+
+/*text alignment styles*/
+.txt-left{
+    text-align: left;
+}
+
+.txt-center{
+    text-align:center;
+}
+
+.txt-right{
+    text-align: right;
+}
+
+.txt-highlight{
+    background-color:var(--clr-red);
+    color:white;
+}
+
+.txt-linethrough{
+    text-decoration: line-through;
+}
+
+.txt-bold{
+    font-weight: bold;
+}
+
+.txt-italics{
+    font-style: italic;
+}
+
+.txt-grey{
+    color:var(--txt-grey)
+}
