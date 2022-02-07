@@ -21,6 +21,7 @@
 .flex-space-btwn{
     display:flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .flex-col-space-btwn{
