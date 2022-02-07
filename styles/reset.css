@@ -12,7 +12,7 @@ a{
 
 a:hover{
     color:var(--txt-highlight);
-    color:var(--text-hover);
+    color:var(--txt-hover);
 }
 
 button:hover{

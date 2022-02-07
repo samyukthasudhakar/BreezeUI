@@ -5,6 +5,7 @@
     --clr-white:#ffffff;
     --clr-blue:#B9eAed;
     --clr-grey:#d9e9fa;
+    --clr-light-grey:#F2F4FA;
     --clr-green:#c7e8b5;
     --clr-red:#ff6961;
     --clr-orange:#ffb347;
@@ -17,7 +18,8 @@
     --txt-validity:#008000;
     --txt-invalidity:#ff0000;
     --txt-linethrough:#808080;
-    --text-hover:#556b2f;
+    --txt-hover:#556b2f;
+    --txt-grey:#6A6B6E;
 
     /*website theme colors*/
     --primary-clr:#8ad0a0;

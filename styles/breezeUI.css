@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@200&display=swap');
 @import url(reset.css);
-@import url(/styles/utils/txt-styles.css);
+@import url(/styles/utils/spacing.css);
 @import url(/styles/utils/flex-formats.css);
 @import url(/styles/colors.css);
 @import url(/styles/index.css);
@@ -13,6 +13,8 @@
 @import url(/styles/components/card.css);
 @import url(/styles/components/image.css);
 @import url(/styles//components/input.css);
+@import url(/styles/components/textUtilities.css);
+@import url(/styles/components/list.css);
 
 *{
     font-family: 'Open Sans', sans-serif;
@@ -50,7 +52,7 @@ nav{
 
 .logo-name:hover{
     font-size: larger;
-    color:var(--text-hover);
+    color:var(--txt-hover);
 }
 
 .header-link{
@@ -77,5 +79,5 @@ footer{
 }
 
 .footer-icon:hover{
-    color:var(--text-hover);
+    color:var(--txt-hover);
 }
