@@ -1,0 +1,20 @@
+.modal-container, .modal-example{
+    text-align:center;
+    width:25rem;
+    background-color: var(--clr-blue);
+    padding:1rem
+}
+
+.modal-container{
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    display:none;
+}
+
+.modal-cancel, .modal-cancel-demo{
+    border:none;
+    background-color:transparent;
+    align-self:flex-end;
+}

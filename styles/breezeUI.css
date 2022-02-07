@@ -15,6 +15,8 @@
 @import url(/styles//components/input.css);
 @import url(/styles/components/textUtilities.css);
 @import url(/styles/components/list.css);
+@import url(/styles/components/navigation.css);
+@import url(/styles/components/modal.css);
 
 *{
     font-family: 'Open Sans', sans-serif;
