@@ -35,7 +35,7 @@
             <a class="aside-menu-link" href="#text">Text</a>
             <a class="aside-menu-link" href="#lists">Lists</a>
             <a class="aside-menu-link" href="#nav">Navigation</a>
-            <a class="aside-menu-link" href="#Modal">Modal</a>
+            <a class="aside-menu-link" href="#modal">Modal</a>
         </aside>
 
         <div class="flex-column component-listing">
@@ -704,7 +704,7 @@
             </section>
 
             <!-- Modal Component -->
-            <section id="Modal" class="component-section">
+            <section id="modal" class="component-section">
                 <div class="component-container">
                     <h2 class="component-heading">Modal</h2>
                     <span class="component-description">
@@ -713,8 +713,8 @@
                     </span>
 
                     <div class="display-container flex-column-center">
-                        <div class="flex-column-center modal">
-                            <button class="modal-cancel"><i class="fa fa-close txt-md"></i></button>
+                        <div class="flex-column-center modal-example">
+                            <button class="modal-cancel-demo"><i class="fa fa-close txt-md"></i></button>
                             <h3>Confirmation</h3>
                             <p class="p-sm">
                                 Are you sure you want to delete the account?
@@ -739,8 +739,8 @@
                     style="width: 742px; height: 487px; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
                     </iframe>
-                    <div id="modal" class="flex-column-center">
-                        <button id="modal-cancel"><i class="fa fa-close txt-md"></i></button>
+                    <div class="flex-column-center modal-container">
+                        <button class="modal-cancel"><i class="fa fa-close txt-md"></i></button>
                         <h3>Confirmation</h3>
                         <p class="p-sm">
                             Are you sure you want to delete the account?
@@ -748,13 +748,13 @@
                         </p>
                         <div class="mg-tb-1">
                             <button class="btn">Cancel</button>
-                            <button class="btn green-btn modal-open">Yes, I Agree !</button>
+                            <button class="btn green-btn">Yes, I Agree !</button>
                         </div>
                     </div>
                     
                     <h3>Demo</h3>
                     <div class="mg-tb-1 display-container">
-                        <button id="modal-open" class="btn green-btn">Open Modal</button>
+                        <button class="btn green-btn modal-open">Open Modal</button>
                     </div>
                 </div>
             </section>

@@ -9,9 +9,9 @@ cancelBtn.addEventListener("click",()=>{
 
 
 // close modal functionality
-modalBox = document.querySelector("#modal")
-modalOpen = document.querySelector("#modal-open")
-modalClose = document.querySelector("#modal-cancel")
+modalBox = document.querySelector(".modal-container")
+modalOpen = document.querySelector(".modal-open")
+modalClose = document.querySelector(".modal-cancel")
 
 modalOpen.addEventListener('click',()=>{
     modalBox.style.display = "flex";
