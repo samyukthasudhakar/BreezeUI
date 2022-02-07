@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@200&display=swap');
 @import url(reset.css);
-@import url(/styles/utils/txt-styles.css);
+@import url(/styles/utils/spacing.css);
 @import url(/styles/utils/flex-formats.css);
 @import url(/styles/colors.css);
 @import url(/styles/index.css);
