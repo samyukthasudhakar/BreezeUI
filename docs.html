@@ -21,7 +21,7 @@
         </nav>
     </header>
 
-    <div class="flex-layout container">
+    <div class=" parent flex-layout container">
         <!--aside bar to access different components-->
         <aside class="flex-column aside-menu">
             <span class="aside-menu-heading">Components</span>
@@ -701,6 +701,54 @@
                     </iframe>
                 </div>
             </section>
+
+            <!-- Modal Component -->
+            <section id="nav" class="component-section">
+                <div class="component-container">
+                    <h2 class="component-heading">Modal</h2>
+                    <span class="component-description">
+                        It is a web page element that displays in front of the screen 
+                        and deactivates all other page content including the ability to scroll.
+                    </span>
+
+                    <div class="display-container flex-column-center">
+                        <div class="flex-column-center modal">
+                            <button class="modal-cancel"><i class="fa fa-close txt-md"></i></button>
+                            <h3>Confirmation</h3>
+                            <p class="p-sm">
+                                Are you sure you want to delete the account?
+                                This action cannot be undone and you will be unable to recover any data.
+                            </p>
+                            <div class="mg-tb-1">
+                                <button class="btn">Cancel</button>
+                                <button class="btn green-btn">Yes, I Agree !</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=htmlmixed&width=742&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253Cdiv%2520id%253D%2522modal%2522%2520class%253D%2522flex-column-center%2522%253E%250A%2520%2520%253Cbutton%2520id%253D%2522modal-cancel%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-close%2520txt-md%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253Ch3%253EConfirmation%253C%252Fh3%253E%250A%2520%2520%253Cp%2520class%253D%2522p-sm%2522%253E%250A%2520%2520%2520%2520%2520%2520Are%2520you%2520sure%2520you%2520want%2520to%2520delete%2520the%2520account%253F%250A%2520%2520%2520%2520%2520%2520This%2520action%2520cannot%2520be%2520undone%2520and%2520you%2520will%2520be%2520%250A%2520%2520%2520%2520%2520%2520unable%2520to%2520recover%2520any%2520data.%250A%2520%2520%253C%252Fp%253E%250A%2520%2520%253Cdiv%2520class%253D%2522mg-tb-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2522%253ECancel%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520green-btn%2520modal-open%2522%253EYes%252C%2520I%2520Agree%2520%21%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                    style="width: 742px; height: 487px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                    
+                    <div id="modal" class="flex-column-center">
+                        <button id="modal-cancel"><i class="fa fa-close txt-md"></i></button>
+                        <h3>Confirmation</h3>
+                        <p class="p-sm">
+                            Are you sure you want to delete the account?
+                            This action cannot be undone and you will be unable to recover any data.
+                        </p>
+                        <div class="mg-tb-1">
+                            <button class="btn">Cancel</button>
+                            <button class="btn green-btn modal-open">Yes, I Agree !</button>
+                        </div>
+                    </div>
+                    
+                    <h3>Demo</h3>
+                    <div class="mg-tb-1 display-container">
+                        <button id="modal-open" class="btn green-btn">Open Modal</button>
+                    </div>
         </div>
     </div>
     <script src="app.js"></script>
