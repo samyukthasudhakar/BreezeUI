@@ -1,0 +1,29 @@
+.toast, .toast-example{
+    padding:1rem;
+    border:none;
+    border-radius: 3px;
+}
+
+.toast{
+    display:none;
+    position:fixed;
+    left:50%;
+    bottom:1%;
+    transform: translate(-50%, -50%);
+}
+
+.toast-success{
+    background-color: var(--clr-green);
+}
+
+.toast-error{
+    background-color: var(--clr-red);
+}
+
+.toast-info{
+    background-color: var(--clr-blue);
+}
+
+.toast-icon{
+    margin-left:1rem;
+}
