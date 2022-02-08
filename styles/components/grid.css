@@ -1,0 +1,30 @@
+.grid-container{
+    display:grid;
+}
+
+.two-col-grid{
+    grid-template-columns: 50% 50%;
+    grid-gap:2rem;
+}
+
+.two-row-grid{
+    grid-template-rows: 70% 30%;
+}
+
+.three-col-grid{
+    grid-template-columns: 30% 30% 30%;
+    grid-gap:3rem;
+}
+
+.grid-img{
+    border-radius:7px;
+    width:10rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.grid-card{
+    border-radius:3px;
+    background-color:var(--clr-white);
+    width:10rem;
+    padding:5px;
+}
