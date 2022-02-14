@@ -37,7 +37,8 @@
             <a class="aside-menu-link" href="#nav">Navigation</a>
             <a class="aside-menu-link" href="#modal">Modal</a>
             <a class="aside-menu-link" href="#rating">Rating</a>
-            <a class="aside-menu-link" href="#toast">Toast</a>
+            <a class="aside-menu-link" href="#toast">Toast</a>  
+            <a class="aside-menu-link" href="#grid">Grid</a>
         </aside>
 
         <div class="flex-column component-listing">
@@ -759,8 +760,8 @@
                         <button class="btn green-btn modal-open">Open Modal</button>
                     </div>
                 </div>
-            </section>
-
+              </section>
+                            
             <!--Rating Component-->
             <section id="rating" class="component-section">
                 <div class="component-container">
@@ -867,6 +868,77 @@
                     </iframe>
                 </div>
             </section>
+              
+            <!-- Grid Component -->
+            <section id="grid" class="component-section">
+                <div class="component-container">
+                    <h2 class="component-heading">Grid</h2>
+                    <span class="component-description">
+                        Grid layout enables us to align elements into columns and rows. 
+                        It excels at dividing a page into major regions or defining the relationship 
+                        in terms of size, position, and layer, between parts of a control built from HTML primitives.
+                    </span>
+
+                    <h3 class="component-variant-heading">Grids with two columns.</h3>
+                    <span>This kind of grid can be created by wrapping the 
+                        elements within <span class="txt-bold">grid-container</span> and <span class="txt-bold">two-col-grid</span> class.</span>
+                    <div class="display-container flex-column-center">
+                        <div class="grid-container two-col-grid">
+                            <div>
+                                <img class="grid-img" src="assets/images/dog-1.png" alt="image of a dog">
+                            </div>
+                            <div>
+                                <img class="grid-img" src="assets/images/dog-3.png" alt="image of a dog">
+                            </div>
+                        </div>
+                    </div>
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=htmlmixed&width=742&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253Cdiv%2520class%253D%2522grid-container%2520two-col-grid%2522%253E%250A%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522grid-img%2522%2520src%253D%2522assets%252Fimages%252Fdog-1.png%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522image%2520of%2520a%2520dog%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522grid-img%2522%2520src%253D%2522assets%252Fimages%252Fdog-3.png%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522image%2520of%2520a%2520dog%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                    style="width: 742px; height: 393px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                    <h3 class="component-variant-heading">Grids with two rows.</h3>
+                    <span>This kind of grid can be created by wrapping the 
+                        elements within <span class="txt-bold">grid-container</span> and <span class="txt-bold">two-row-grid</span> class.</span>
+                    <div class="display-container flex-column-center">
+                        <div class="grid-container two-row-grid">
+                            <div>
+                                <img class="grid-img" src="assets/images/man-with-dog.png" alt="man with dog">
+                            </div>
+                            <div class="grid-card">
+                                <h4>Man & Dog</h4>
+                                <span class="font-size:medium">This is a picture of a man and his dog.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=htmlmixed&width=742&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253Cdiv%2520class%253D%2522grid-container%2520two-row-grid%2522%253E%250A%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522grid-img%2522%2520src%253D%2522assets%252Fimages%252Fman-with-dog.png%2522%2520%2509%2509%2509%2509%2520%2520%2520alt%253D%2522man%2520with%2520dog%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522grid-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch4%253EMan%2520%2526%2520Dog%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522font-size%253Amedium%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520picture%2520of%2520a%2520man%2520and%2520his%2520dog.%250A%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                    style="width: 742px; height: 431px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                    <h3 class="component-variant-heading">Grids with three columns.</h3>
+                    <span>This kind of grid can be created by wrapping the 
+                        elements within <span class="txt-bold">grid-container</span> and <span class="txt-bold">three-col-grid</span> class.</span>
+                    <div class="display-container flex-column-center">
+                        <div class="grid-container three-col-grid">
+                            <div>
+                                <img class="grid-img" src="assets/images/dog-1.png" alt="image of a dog">
+                            </div>
+                            <div>
+                                <img class="grid-img" src="assets/images/dog-2.png" alt="image of a dog">
+                            </div>
+                            <div>
+                                <img class="grid-img" src="assets/images/dog-3.png" alt="image of a dog">
+                            </div>
+                        </div>
+                    </div>
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=htmlmixed&width=742&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253Cdiv%2520class%253D%2522grid-container%2520three-col-grid%2522%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522grid-img%2522%2520src%253D%2522assets%252Fimages%252Fdog-1.png%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522image%2520of%2520a%2520dog%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522grid-img%2522%2520src%253D%2522assets%252Fimages%252Fdog-2.png%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522image%2520of%2520a%2520dog%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522grid-img%2522%2520src%253D%2522assets%252Fimages%252Fdog-3.png%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522image%2520of%2520a%2520dog%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                    style="width: 742px; height: 468px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
         </div>
     </div>
     <script src="app.js"></script>
