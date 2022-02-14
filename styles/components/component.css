@@ -13,6 +13,7 @@
 .component-container{
     display:flex;
     flex-direction: column;
+    max-width:67rem;
 }
 
 .component-variant-container{
