@@ -20,6 +20,7 @@
 @import url(/styles/components/rating.css);
 @import url(/styles/components/toast.css);
 @import url(/styles/components/grid.css);
+@import url(/styles/components/slider.css);
 
 *{
     font-family: 'Open Sans', sans-serif;

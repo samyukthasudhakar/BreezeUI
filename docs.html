@@ -39,6 +39,7 @@
             <a class="aside-menu-link" href="#rating">Rating</a>
             <a class="aside-menu-link" href="#toast">Toast</a>  
             <a class="aside-menu-link" href="#grid">Grid</a>
+            <a class="aside-menu-link" href="#slider">Slider</a>
         </aside>
 
         <div class="flex-column component-listing">
@@ -939,6 +940,55 @@
                     style="width: 742px; height: 468px; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
                     </iframe>
+                </div>
+            </section>
+
+            <!-- Slider Component -->
+            <section id="slider" class="component-section">
+                <div class="component-container">
+                    <h2 class="component-heading">Slider</h2>
+                    <p class="component-description">
+                        The slider component allows you to create a slider that can be used 
+                        to for cases where the user can drag it to pick a number from a range that is specified.
+                        Sliders are useful when you don't need an exact numeric value.
+                    </p>
+
+                    <h3 class="component-variant-heading">Slider</h3>
+                    <div class="display-container flex-layout flex-center">
+                        <label class="slider-label">0</label>
+                        <input class="slider" type="range" min="0" max="100">
+                        <label class="slider-label">100</label>
+                    </div>
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=htmlmixed&width=742&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522display-container%2520flex-layout%2520flex-center%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522slider-label%2522%253E0%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520class%253D%2522slider%2522%2520type%253D%2522range%2522%2520min%253D%25220%2522%2520max%253D%2522100%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522slider-label%2522%253E100%253C%252Flabel%253E%250A%253C%252Fdiv%253E"
+                    style="width: 742px; height: 279px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                    <h3 class="component-variant-heading">Disabled Slider</h3>
+                    <div class="display-container flex-center">
+                        <label class="slider-label">0</label>
+                        <input class="slider slider-disabled" type="range" min="0" max="100" disabled="true">
+                        <label class="slider-label">100</label>
+                    </div>
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=htmlmixed&width=776.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522display-container%2520flex-center%2522%253E%250A%2520%2520%253Clabel%2520class%253D%2522slider-label%2522%253E0%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520class%253D%2522slider%2520slider-disabled%2522%2520type%253D%2522range%2522%2520min%253D%25220%2522%2520max%253D%2522100%2522%2520%2509%2509%2509%2520disabled%253D%2522true%2522%253E%250A%2520%2520%253Clabel%2520class%253D%2522slider-label%2522%253E100%253C%252Flabel%253E%250A%253C%252Fdiv%253E"
+                    style="width: 777px; height: 298px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                    
+                    <h3 class="component-variant-heading">Slider with Icon</h3>
+                    <div class="display-container flex-layout flex-center">
+                        <i class="fa fa-volume-up slider-label"></i>
+                        <input class="slider" type="range" min="0" max="100">
+                    </div>
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=htmlmixed&width=776.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522display-container%2520flex-layout%2520flex-center%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-volume-up%2520slider-label%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cinput%2520class%253D%2522slider%2522%2520type%253D%2522range%2522%2520min%253D%25220%2522%2520max%253D%2522100%2522%253E%250A%253C%252Fdiv%253E"
+                    style="width: 777px; height: 261px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
         </div>
     </div>
     <script src="app.js"></script>

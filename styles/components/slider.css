@@ -1,0 +1,16 @@
+.slider{
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+    height: 20px;
+    vertical-align: center;
+    width: 10rem;
+}
+
+.slider-label{
+    margin:0 2px;
+}
+
+.slider-disabled{
+    cursor: not-allowed;
+}
