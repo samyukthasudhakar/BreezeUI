@@ -34,3 +34,18 @@ openToast.addEventListener('click',()=>{
         toastMsg.style.display="none";
     },3000)
 })
+
+
+//hamburger-menu
+const menuBtn = document.querySelector(".hamburger-menu-btn");
+const menuLinks = document.querySelector(".hamburger-menu-links");
+
+menuBtn.addEventListener('click',()=>{
+    console.log(menuLinks)
+    console.log('clicked')
+    if (menuLinks.style.display == "block"){
+        menuLinks.style.display = "none";
+    }else{
+        menuLinks.style.display = "block";
+    }
+})
