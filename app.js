@@ -41,11 +41,11 @@ const menuBtn = document.querySelector(".hamburger-menu-btn");
 const menuLinks = document.querySelector(".hamburger-menu-links");
 
 menuBtn.addEventListener('click',()=>{
-    console.log(menuLinks)
-    console.log('clicked')
     if (menuLinks.style.display == "block"){
+        menuBtn.innerHTML = '<i class="fa fa-bars"></i>';
         menuLinks.style.display = "none";
     }else{
+        menuBtn.innerHTML = '<i class="fa fa-close"></i>';
         menuLinks.style.display = "block";
     }
 })
