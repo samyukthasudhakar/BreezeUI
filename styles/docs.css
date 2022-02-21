@@ -17,15 +17,17 @@
 
 .aside-menu-heading{
     font-size: larger;
-    padding:1rem;
+    padding: 8px;
 }
 
 .aside-menu-link{
-    padding:1rem;
-    width:100%;
+    padding: 8px;
+    width: 100%;
     font-size: medium;
+    translate: all ease 5s;
 }
 
 .aside-menu-link:hover{
-    font-size: large;
+    color: var(--clr-black);
+    transform: translateX(7px);
 }
