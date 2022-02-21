@@ -26,6 +26,14 @@ To get started with BreezeUI, copy the code and paste it in the head tag of your
 - [Card](#card)
 - [Image](#image)
 - [Input](#input)
+- [Text](#text)
+- [Lists](#lists)
+- [Navigation](#navigation)
+- [Modal](#modal)
+- [Rating](#rating)
+- [Toast](#toast)
+- [Grid](#grid)
+- [Slider](#slider)
 
 ## Alert
 Alerts are notifications that keeps the user informed of the status of the system, which may or may not require the user to respond. This includes general updates, errors, and warnings.
@@ -99,8 +107,76 @@ Type of input elements available in BreezeUI :
 - Invalid Input
 
 Examples : [BreezeUI Inputs](https://breezeui.netlify.app/docs.html#input)
+## Text
+Text content can be styled using with the help of classes from the component library.
 
+Type of text utilities available in BreezeUI :
+- Heading Text
+- Paragraph Text
+- Aligned Text
+- Styled Text
 
-## Connect with me
-<a href="https://twitter.com/samyuktha7300">Twitter</a>
-<a href="www.linkedin.com/in/samyukthasudhakar">LinkedIn</a>
+Examples : [BreezeUI Text Utilities](https://breezeui.netlify.app/docs.html#text)
+## Lists
+Lists are used to specify a collection of information. A list may contain one or more list elements. Lists can be of ordered or unordered type.
+
+Types of lists available in BreezeUI :
+- Unordered (circle, disc, square)
+- Ordered (alphabet, numeric, roman numerals)
+- Stacked List
+
+Examples : [BreezeUI Lists](https://breezeui.netlify.app/docs.html#lists)
+## Navigation
+It is a section of a graphical user interface intended to aid visitors in accessing information. Navigation bars are implemented in file browsers, web browsers and as a design element of some web sites.
+
+Types of navigation components available in BreezeUI :
+- Nav Bar
+- Sub Menu
+- Hamburger Menu
+
+Examples : [BreezeUI Navigation](https://breezeui.netlify.app/docs.html#nav)
+## Modal
+It is a web page element that is displayed in front of the screen and deactivates all other page content including the ability to scroll.
+
+Example : [BreezeUI Modal](https://breezeui.netlify.app/docs.html#modal)
+## Rating
+Ratings are web components that are used to measure how good a product/service is. Ratings are renowned for representing the credibility and quality of the product. They are used to take in user feedback and appreciation.
+
+Types of rating available in BreezeUI :
+- Read-only rating
+- Interactive rating
+
+Examples : [BreezeUI Rating](https://breezeui.netlify.app/docs.html#rating)
+## Toast
+It is a UI feature where an event causes a small text box to appear at the bottom of the screen.
+
+Types of toasts available in BreezeUI :
+- Information Toast
+- Success Toast
+- Error Toast
+
+Examples : [BreezeUI Toast](https://breezeui.netlify.app/docs.html#toast)
+## Grid
+Grid layout enables us to align elements into columns and rows. It excels at dividing a page into major regions or defining the relationship in terms of size, position, and layer, between parts of a control built from HTML primitives.
+
+Types of grids available in BreezeUI :
+- Two row grid
+- Two column grid
+- Three row grid
+- Three column grid
+
+Examples : [BreezeUI Grids](https://breezeui.netlify.app/docs.html#grid)
+## Slider
+The slider component allows you to create a slider that can be used to for cases where the user can drag it to pick a number from a range that is specified. Sliders are useful when you don't need an exact numeric value.
+
+Types of sliders available in BreezeUI :
+- Slider
+- Disabled Slider
+- Slider with icon
+
+Examples : [BreezeUI Slider](https://breezeui.netlify.app/docs.html#slider)
+
+## 👩🏽‍💻Connect with me
+<a href="https://twitter.com/samyuktha7300">![image](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)</a>
+<a href="www.linkedin.com/in/samyukthasudhakar">![image](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)</a>
+<a href="https://dev.to/samyukthasudhakar">![image](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white)</a>
