@@ -26,3 +26,69 @@
     font-size:2rem;
     margin:0.5rem
 }
+
+.dropbtn {
+    background-color: var(--txt-highlight);
+    color: var(--clr-white);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+}
+  
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--clr-light-grey);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-link {
+    color: var(--clr-black);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-link:hover{
+    background-color: var(--clr-grey);
+    color: var(--clr-black);
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+
+.hamburger-menu-btn{
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: none;
+
+}
+
+.hamburger-menu-links{
+    display: none;
+}
+  
+.hamburger-menu-link {
+    background-color: var(--clr-grey);
+    color: var(--clr-black);
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+    display: block;
+}
+
+.hamburger-menu-link:hover {
+    background-color: var(--txt-highlight);
+    color: var(--clr-white);
+}
