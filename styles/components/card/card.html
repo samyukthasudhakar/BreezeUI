@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/breezeUI.css">
+    <link rel='icon' href="assets/images/logo-sm.png">
+    <title>BreezeUI | Documentation</title>
+</head>
+<body>
+    <header class="flex-space-btwn">
+        <div class="flex-center">
+            <img class="header-logo" src="assets/images/logo-lg.png">
+            <a href="index.html" class="logo-name">BreezeUI</a>
+        </div>
+
+        <nav>
+            <a class="header-link link-icon icon" href="https://github.com/samyukthasudhakar/BreezeUI"><i class="fa fa-github"></i></a>
+        </nav>
+    </header>
+
+    <div class=" parent flex-layout container">
+        <!--aside bar to access different components-->
+        <aside class="flex-column aside-menu">
+            <span class="aside-menu-heading">Components</span>
+            <a class="aside-menu-link" href="#alerts">Alerts</a>
+            <a class="aside-menu-link" href="#avatar">Avatar</a>
+            <a class="aside-menu-link" href="#badge">Badge</a>
+            <a class="aside-menu-link" href="#button">Button</a>
+            <a class="aside-menu-link" href="#card">Card</a>
+            <a class="aside-menu-link" href="#image">Image</a>
+            <a class="aside-menu-link" href="#input">Input</a>
+            <a class="aside-menu-link" href="#text">Text</a>
+            <a class="aside-menu-link" href="#lists">Lists</a>
+            <a class="aside-menu-link" href="#nav">Navigation</a>
+            <a class="aside-menu-link" href="#modal">Modal</a>
+            <a class="aside-menu-link" href="#rating">Rating</a>
+            <a class="aside-menu-link" href="#toast">Toast</a>  
+            <a class="aside-menu-link" href="#grid">Grid</a>
+            <a class="aside-menu-link" href="#slider">Slider</a>
+        </aside>
+
+        <div class="flex-column component-listing">
+           <!--Card Component-->
+           <section id="card" class="component-section">
+            <div class="component-container">
+                <h2 class="component-heading">Card</h2>
+                <span class="component-description">Cards can be defined as a small rectangle/square associated to a singular thought. 
+                    Cards are full of interactive elements such as text, links, buttons or images but they suggest just one main action: the one of "clicking" through the card to further discover the content.
+                </span>
+                <div class="flex-layout cards-display">
+                    <div class="card-variant-container">
+                        <h4 class="component-variant-heading">Vertical Card</h4>
+                        <div class="flex-col-space-btwn card-container">
+                            <img  class="card-image" src="assets/images/hanging-sloth-planter.jpg" alt="hanging sloth planter">
+                            <span class="card-product-name">Hanging Sloth Planter</span>
+                            <span class="card-product-price">₹1500</span>
+                            <button class="card-product-button">Move to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card-variant-container">
+                        <h4 class="component-variant-heading">Horizontal Card</h4>
+                        <div class="flex-space-btwn horizontal-card-container">
+                            <img class="horizontal-card-image" src="assets/images/hanging-sloth-planter.jpg" alt="hanging sloth planter">
+                            <div class="flex-col-layout horizontal-card-content">
+                                <h3>Hanging Sloth Planter</h3>
+                                <span class="card-product-price price-lg">₹1500</span>
+                                <span class="card-product-actual-price">₹3000</span>
+                                <span class="card-offer-percent">50% off</span>
+                                <button class="horizontal-card-button">Add to Cart</button>
+                                <button class="horizontal-card-button secondary-card-btn">Save to Wishlist</button>
+                            </div>
+                        </div>
+                    </div>
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=htmlmixed&width=856.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--Vertical%2520Card--%253E%250A%253Cdiv%2520class%253D%2522flex-col-space-btwn%2520card-container%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522card-image%2522%2520src%253D%2522assets%252Fimages%252Fhanging-sloth-planter.jpg%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520alt%253D%2522hanging%2520sloth%2520planter%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522card-product-name%2522%253EHanging%2520Sloth%2520Planter%253C%252Fspan%253E%250A%2520%2520%253Cspan%2520class%253D%2522card-product-price%2522%253E%25E2%2582%25B91500%253C%252Fspan%253E%250A%2520%2520%253Cbutton%2520class%253D%2522card-product-button%2522%253EMove%2520to%2520Cart%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%250A%253C%21--Horizontal%2520Card--%253E%250A%253Cdiv%2520class%253D%2522flex-space-btwn%2520horizontal-card-container%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522horizontal-card-image%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520src%253D%2522assets%252Fimages%252Fhanging-sloth-planter.jpg%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520alt%253D%2522hanging%2520sloth%2520planter%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522flex-col-layout%2520horizontal-card-content%2522%253E%250A%2520%2520%2520%2520%253Ch3%253EHanging%2520Sloth%2520Planter%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-product-price%2520price-lg%2522%253E%25E2%2582%25B91500%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-product-actual-price%2522%253E%25E2%2582%25B92500%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-offer-percent%2522%253E50%2525%2520off%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522horizontal-card-button%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522horizontal-card-button%2520secondary-card-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520Save%2520to%2520Wishlist%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 857px; height: 617px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                    <div class="card-variant-container">
+                        <h4 class="component-variant-heading">Card with Badge</h4>
+                        <div class="flex-col-space-btwn card-container">
+                            <img class="card-image" src="assets/images/hanging-sloth-planter.jpg" alt="hanging sloth planter">
+                            <span class="card-badge">New</span>
+                            <span class="card-product-name">Hanging Sloth Planter</span>
+                            <span class="card-product-price">₹1500</span>
+                            <button class="card-product-button">Move to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card-variant-container">
+                        <h4 class="component-variant-heading">Card with Dismiss Button</h4>
+                        <div class="flex-col-space-btwn card-container">
+                            <img class="card-image" src="assets/images/hanging-sloth-planter.jpg" alt="hanging sloth planter">
+                            <i class="fa fa-times card-dismiss"></i>
+                            <span class="card-product-name">Hanging Sloth Planter</span>
+                            <span class="card-product-price">₹1500</span>
+                            <button class="card-product-button">Move to Cart</button>
+                        </div>
+                    </div>
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=htmlmixed&width=856.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--Card%2520with%2520badge--%253E%250A%253Cdiv%2520class%253D%2522flex-col-space-btwn%2520card-container%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522card-image%2522%2520src%253D%2522assets%252Fimages%252Fhanging-sloth-planter.jpg%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520alt%253D%2522hanging%2520sloth%2520planter%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522card-badge%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%253Cspan%2520class%253D%2522card-product-name%2522%253EHanging%2520Sloth%2520Planter%253C%252Fspan%253E%250A%2520%2520%253Cspan%2520class%253D%2522card-product-price%2522%253E%25E2%2582%25B91500%253C%252Fspan%253E%250A%2520%2520%253Cbutton%2520class%253D%2522card-product-button%2522%253EMove%2520to%2520Cart%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%250A%253C%21--Card%2520with%2520Dismiss--%253E%250A%253Cdiv%2520class%253D%2522flex-col-space-btwn%2520card-container%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522card-image%2522%2520src%253D%2522assets%252Fimages%252Fhanging-sloth-planter.jpg%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520alt%253D%2522hanging%2520sloth%2520planter%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fa%2520fa-times%2520card-dismiss%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cspan%2520class%253D%2522card-product-name%2522%253EHanging%2520Sloth%2520Planter%253C%252Fspan%253E%250A%2520%2520%253Cspan%2520class%253D%2522card-product-price%2522%253E%25E2%2582%25B91500%253C%252Fspan%253E%250A%2520%2520%253Cbutton%2520class%253D%2522card-product-button%2522%253EMove%2520to%2520Cart%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                    style="width: 857px; height: 524px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                    <div class="card-variant-container">
+                        <h4 class="component-variant-heading">Card with Shadow</h4>
+                        <div class="flex-col-space-btwn card-container shadow-card">
+                            <img class="card-image" src="assets/images/hanging-sloth-planter.jpg" alt="hanging sloth planter">
+                            <span class="card-product-name">Hanging Sloth Planter</span>
+                            <span class="card-product-price">₹1500</span>
+                            <button class="card-product-button">Move to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card-variant-container">
+                        <h4 class="component-variant-heading">Card with Overlay</h4>
+                        <div class="flex-col-space-btwn card-container">
+                            <img class="card-image" src="assets/images/hanging-sloth-planter.jpg" alt="hanging sloth planter">
+                            <span class="card-product-name">Hanging Sloth Planter</span>
+                            <span class="card-product-price">₹1500</span>
+                            <button class="card-product-button">Move to Cart</button>
+                            <div class="text-overlay">
+                                <h3 class="text-overlay-content">Out of Stock</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=htmlmixed&width=856.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--Card%2520with%2520shadow--%253E%250A%253Cdiv%2520class%253D%2522flex-col-space-btwn%2520card-container%2520shadow-card%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522card-image%2522%2520src%253D%2522assets%252Fimages%252Fhanging-sloth-planter.jpg%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520alt%253D%2522hanging%2520sloth%2520planter%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522card-product-name%2522%253EHanging%2520Sloth%2520Planter%253C%252Fspan%253E%250A%2520%2520%253Cspan%2520class%253D%2522card-product-price%2522%253E%25E2%2582%25B91500%253C%252Fspan%253E%250A%2520%2520%253Cbutton%2520class%253D%2522card-product-button%2522%253EMove%2520to%2520Cart%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%250A%253C%21--Card%2520with%2520Overlay--%253E%250A%253Cdiv%2520class%253D%2522flex-col-space-btwn%2520card-container%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522card-image%2522%2520src%253D%2522assets%252Fimages%252Fhanging-sloth-planter.jpg%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520alt%253D%2522hanging%2520sloth%2520planter%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522card-product-name%2522%253EHanging%2520Sloth%2520Planter%253C%252Fspan%253E%250A%2520%2520%253Cspan%2520class%253D%2522card-product-price%2522%253E%25E2%2582%25B91500%253C%252Fspan%253E%250A%2520%2520%253Cbutton%2520class%253D%2522card-product-button%2522%253EMove%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%253Cdiv%2520class%253D%2522text-overlay%2522%253E%250A%2520%2520%2520%2520%253Ch3%2520class%253D%2522text-overlay-content%2522%253EOut%2520of%2520Stock%253C%252Fh3%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 857px; height: 542px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                    <div class="card-variant-container">
+                        <h4 class="component-variant-heading">Text only Card</h4>
+                        <div class="flex-col-space-btwn text-card-container">
+                            <h3>Text only card example</h3>
+                            <p>This is an example of card with only text and nothing else. After this line there will be loreum
+                                ipsum text placed to fill up the remaining space.
+                            </p>
+                            <i class="fa fa-arrow-circle-right text-card-icon"></i>
+                        </div>
+                    </div>
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=htmlmixed&width=856.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--Card%2520with%2520shadow--%253E%250A%253Cdiv%2520class%253D%2522flex-col-space-btwn%2520text-card-container%2522%253E%250A%2520%2520%253Ch3%253EText%2520only%2520card%2520example%253C%252Fh3%253E%250A%2520%2520%253Cp%253EThis%2520is%2520an%2520example%2520of%2520card%2520with%2520only%2520text%2520and%2520nothing%2520else.%2520After%2520this%2520line%2520%2509%2520%2520%2520%2520%2520%2520there%2520will%2520be%2520loreum%2520ipsum%2520text%2520placed%2520to%2520fill%2520up%2520the%2520remaining%2520space.%250A%2520%2520%253C%252Fp%253E%250A%2520%2520%253Ci%2520class%253D%2522fa%2520fa-arrow-circle-right%2520text-card-icon%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E"
+                    style="width: 857px; height: 319px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

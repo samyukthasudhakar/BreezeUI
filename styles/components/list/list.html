@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/breezeUI.css">
+    <link rel='icon' href="assets/images/logo-sm.png">
+    <title>BreezeUI | Documentation</title>
+</head>
+<body>
+    <header class="flex-space-btwn">
+        <div class="flex-center">
+            <img class="header-logo" src="assets/images/logo-lg.png">
+            <a href="index.html" class="logo-name">BreezeUI</a>
+        </div>
+
+        <nav>
+            <a class="header-link link-icon icon" href="https://github.com/samyukthasudhakar/BreezeUI"><i class="fa fa-github"></i></a>
+        </nav>
+    </header>
+
+    <div class=" parent flex-layout container">
+        <!--aside bar to access different components-->
+        <aside class="flex-column aside-menu">
+            <span class="aside-menu-heading">Components</span>
+            <a class="aside-menu-link" href="#alerts">Alerts</a>
+            <a class="aside-menu-link" href="#avatar">Avatar</a>
+            <a class="aside-menu-link" href="#badge">Badge</a>
+            <a class="aside-menu-link" href="#button">Button</a>
+            <a class="aside-menu-link" href="#card">Card</a>
+            <a class="aside-menu-link" href="#image">Image</a>
+            <a class="aside-menu-link" href="#input">Input</a>
+            <a class="aside-menu-link" href="#text">Text</a>
+            <a class="aside-menu-link" href="#lists">Lists</a>
+            <a class="aside-menu-link" href="#nav">Navigation</a>
+            <a class="aside-menu-link" href="#modal">Modal</a>
+            <a class="aside-menu-link" href="#rating">Rating</a>
+            <a class="aside-menu-link" href="#toast">Toast</a>  
+            <a class="aside-menu-link" href="#grid">Grid</a>
+            <a class="aside-menu-link" href="#slider">Slider</a>
+        </aside>
+
+        <div class="flex-column component-listing">
+            <!--List Component-->
+            <section id="lists" class="component-section">
+                <div class="component-container">
+                    <h2 class="component-heading">Lists</h2>
+                    <span class="component-description">Lists are used to specify a collection of information. 
+                        All lists may contain one or more list elements. Lists can be of ordered or unordered type.
+                    </span>
+
+                    <h3 class="component-variant-heading">Unordered Lists</h3>
+                    <span>Unordered lists can have different bullet styles like - disc, circle, square</span>
+                    <div class="display-container flex-space-btwn">
+                        <ul class="ul-disc">
+                            <li>item 1</li>
+                            <li>item 2</li>
+                            <li>item 3</li>
+                        </ul>
+                        <ul class="ul-circle">
+                            <li>item 1</li>
+                            <li>item 2</li>
+                            <li>item 3</li>
+                        </ul>
+                        <ul class="ul-square">
+                            <li>item 1</li>
+                            <li>item 2</li>
+                            <li>item 3</li>
+                        </ul>
+                    </div>
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=htmlmixed&width=742&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253Cul%2520class%253D%2522ul-disc%2522%253E%250A%2520%2520%253Cli%253Eitem%25201%253C%252Fli%253E%250A%2520%2520%253Cli%253Eitem%25202%253C%252Fli%253E%250A%2520%2520%253Cli%253Eitem%25203%253C%252Fli%253E%250A%253C%252Ful%253E%250A%253Cul%2520class%253D%2522ul-circle%2522%253E%250A%2520%2520%253Cli%253Eitem%25201%253C%252Fli%253E%250A%2520%2520%253Cli%253Eitem%25202%253C%252Fli%253E%250A%2520%2520%253Cli%253Eitem%25203%253C%252Fli%253E%250A%253C%252Ful%253E%250A%253Cul%2520class%253D%2522ul-square%2522%253E%250A%2520%2520%253Cli%253Eitem%25201%253C%252Fli%253E%250A%2520%2520%253Cli%253Eitem%25202%253C%252Fli%253E%250A%2520%2520%253Cli%253Eitem%25203%253C%252Fli%253E%250A%253C%252Ful%253E%250A"
+                    style="width: 742px; height: 487px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                    <h3 class="component-variant-heading">Ordered Lists</h3>
+                    <span>Ordered lists can be listed with the help of numbers, alphabets, roman numerals, reverse order too.</span>
+                    <div class="display-container flex-space-btwn">
+                        <ol>
+                            <li>list item with number</li>
+                            <li>list item with number</li>
+                            <li>list item with number</li>
+                        </ol>
+                        <ol class="ol-alphabet">
+                            <li>list item with alphabets</li>
+                            <li>list item with alphabets</li>
+                            <li>list item with alphabets</li>
+                        </ol>
+                        <ol class="ol-roman">
+                            <li>list item with roman</li>
+                            <li>list item with roman</li>
+                            <li>list item with roman</li>
+                        </ol>
+                    </div>
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=htmlmixed&width=742&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253C%21--list%2520with%2520number%2520bullet--%253E%250A%253Col%253E%250A%2509%253Cli%253Elist%2520item%2520with%2520number%253C%252Fli%253E%250A%253C%252Fol%253E%250A%253C%21--list%2520with%2520alphabet--%253E%250A%253Col%2520class%253D%2522ol-alphabet%2522%253E%250A%2509%253Cli%253Elist%2520item%2520with%2520alphabets%253C%252Fli%253E%250A%253C%252Fol%253E%250A%253C%21--list%2520with%2520roman%2520numeral--%253E%250A%253Col%2520class%253D%2522ol-roman%2522%253E%250A%2509%253Cli%253Elist%2520item%2520with%2520roman%253C%252Fli%253E%250A%253C%252Fol%253E%250A"
+                    style="width: 742px; height: 431px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                    <div class="display-container flex-space-btwn">
+                        <ol class="ol-cap-alphabet">
+                            <li>list item with alphabets</li>
+                            <li>list item with alphabets</li>
+                            <li>list item with alphabets</li>
+                        </ol>
+                        <ol class="ol-cap-roman">
+                            <li>list item with roman</li>
+                            <li>list item with roman</li>
+                            <li>list item with roman</li>
+                        </ol>
+                        <ol class="ol-alphabet" reversed>
+                            <li>reversed list item</li>
+                            <li>reversed list item</li>
+                            <li>reversed list item</li>
+                        </ol>
+                    </div>
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=htmlmixed&width=742&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253C%21--list%2520with%2520capital%2520alphabet--%253E%250A%253Col%2520class%253D%2522ol-cap-alphabet%2522%253E%250A%2509%253Cli%253Elist%2520item%2520with%2520alphabets%253C%252Fli%253E%250A%253C%252Fol%253E%250A%253C%21--list%2520with%2520capital%2520roman%2520numeral--%253E%250A%253Col%2520class%253D%2522ol-cap-roman%2522%253E%250A%2509%253Cli%253Elist%2520item%2520with%2520roman%253C%252Fli%253E%250A%253C%252Fol%253E%250A%253C%21--reversed%2520alphabet%2520bullet%2520list%2520item--%253E%250A%253Col%2520class%253D%2522ol-alphabet%2522%2520reversed%253E%250A%2509%253Cli%253Elist%2520item%2520with%2520number%253C%252Fli%253E%250A%253C%252Fol%253E%250A"
+                    style="width: 742px; height: 431px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                    <h3 class="component-variant-heading">Stacked Lists</h3>
+                    <span>Stacked lists come in handy when notifications need to be shown. The content of the notification can be placed within the li.</span>
+                    <div class="display-container flex-space-btwn">
+                        <ul class="ul-no-style">
+                            <li class="mg-tb-1">
+                                <a>
+                                    <div class="flex-col-space-btwn text-card-container">
+                                        <h3>Text only card example</h3>
+                                        <p>This is an example of card with only text and nothing else. After this line there will be loreum
+                                            ipsum text placed to fill up the remaining space.
+                                        </p>
+                                        <i class="fa fa-times-circle text-card-icon"></i>
+                                    </div>
+                                </a> 
+                            </li>
+                            <li class="mg-tb-1">
+                                <a>
+                                    <div class="flex-col-space-btwn text-card-container">
+                                        <h3>Text only card example</h3>
+                                        <p>This is an example of card with only text and nothing else. After this line there will be loreum
+                                            ipsum text placed to fill up the remaining space.
+                                        </p>
+                                        <i class="fa fa-times-circle text-card-icon"></i>
+                                    </div>
+                                </a> 
+                            </li>
+                        </ul>
+                    </div>
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=htmlmixed&width=742&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253C%21--stacked%2520list%2520items--%253E%250A%253Cul%2520class%253D%2522ul-no-style%2522%253E%250A%2520%2520%253Cli%2520class%253D%2522li-no-style%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-col-space-btwn%2520text-card-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EText%2520only%2520card%2520example%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EThis%2520is%2520an%2520example%2520of%2520card%2520with%2520only%2520text%2520and%2520nothing%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520else.%2520After%2520this%2520line%2520there%2520will%2520be%2520loreum%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520ipsum%2520text%2520placed%2520to%2520fill%2520up%2520the%2520remaining%2520space.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-times-circle%2520text-card-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%2520%250A%2520%2520%253C%252Fli%253E%250A%253C%252Ful%253E%250A"
+                    style="width: 742px; height: 487px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                
+            </section>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

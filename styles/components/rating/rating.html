@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/breezeUI.css">
+    <link rel='icon' href="assets/images/logo-sm.png">
+    <title>BreezeUI | Documentation</title>
+</head>
+<body>
+    <header class="flex-space-btwn">
+        <div class="flex-center">
+            <img class="header-logo" src="assets/images/logo-lg.png">
+            <a href="index.html" class="logo-name">BreezeUI</a>
+        </div>
+
+        <nav>
+            <a class="header-link link-icon icon" href="https://github.com/samyukthasudhakar/BreezeUI"><i class="fa fa-github"></i></a>
+        </nav>
+    </header>
+
+    <div class=" parent flex-layout container">
+        <!--aside bar to access different components-->
+        <aside class="flex-column aside-menu">
+            <span class="aside-menu-heading">Components</span>
+            <a class="aside-menu-link" href="#alerts">Alerts</a>
+            <a class="aside-menu-link" href="#avatar">Avatar</a>
+            <a class="aside-menu-link" href="#badge">Badge</a>
+            <a class="aside-menu-link" href="#button">Button</a>
+            <a class="aside-menu-link" href="#card">Card</a>
+            <a class="aside-menu-link" href="#image">Image</a>
+            <a class="aside-menu-link" href="#input">Input</a>
+            <a class="aside-menu-link" href="#text">Text</a>
+            <a class="aside-menu-link" href="#lists">Lists</a>
+            <a class="aside-menu-link" href="#nav">Navigation</a>
+            <a class="aside-menu-link" href="#modal">Modal</a>
+            <a class="aside-menu-link" href="#rating">Rating</a>
+            <a class="aside-menu-link" href="#toast">Toast</a>  
+            <a class="aside-menu-link" href="#grid">Grid</a>
+            <a class="aside-menu-link" href="#slider">Slider</a>
+        </aside>
+
+        <div class="flex-column component-listing">
+            <!--Rating Component-->
+            <section id="rating" class="component-section">
+                <div class="component-container">
+                    <h2 class="component-heading">Rating</h2>
+                    <span class="component-description">
+                        Ratings are web components that are used to measure how good a product/service is.
+                        Ratings are renowned for representing the credibility and quality of the product. 
+                        They are used to take in user feedback and appreciation.
+                    </span>
+
+                    <h3 class="component-variant-heading">Read-only Rating</h3>
+                    <span>This kind of rating is used to display the total rating in a static manner.</span>
+                    <div class="flex-space-btwn display-container">
+                        <div class="rating-container">
+                            <span class="fa fa-star rating-star-checked"></span>
+                            <span class="fa fa-star rating-star-checked"></span>
+                            <span class="fa fa-star-half-full rating-star-checked"></span>
+                            <span class="fa fa-star rating-icon"></span>
+                            <span class="fa fa-star rating-icon"></span>
+                        </div>
+                        <div class="rating-container">
+                            <span class='fa fa-circle rating-circle-checked'></span>
+                            <span class='fa fa-circle rating-circle-checked'></span>
+                            <span class='fa fa-circle rating-circle-checked'></span>
+                            <span class='fa fa-circle rating-circle-checked'></span>
+                            <span class='fa fa-circle rating-icon'></span>
+                        </div>
+                        <div class="rating-container">
+                            <span class='fa fa-heart rating-heart-checked'></span>
+                            <span class='fa fa-heart rating-heart-checked'></span>
+                            <span class='fa fa-heart rating-heart-checked'></span>
+                            <span class='fa fa-heart rating-icon'></span>
+                        </div>
+                    </div>
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=htmlmixed&width=742&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253C%21--star%2520rating--%253E%250A%253Cdiv%2520class%253D%2522rating-container%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-star%2520rating-icon%2522%253E%253C%252Fspan%253E%250A%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-star%2520rating-star-checked%2522%253E%253C%252Fspan%253E%250A%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-star-half-full%2520rating-star-checked%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253C%21--circle%2520rating--%253E%250A%253Cdiv%2520class%253D%2522rating-container%2522%253E%250A%2520%2520%253Cspan%2520class%253D%27fa%2520fa-circle%2520rating-icon%27%253E%253C%252Fspan%253E%250A%2520%2520%253Cspan%2520class%253D%27fa%2520fa-circle%2520rating-circle-checked%27%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253C%21--heart%2520rating--%253E%250A%253Cdiv%2520class%253D%2522rating-container%2522%253E%250A%2520%2520%253Cspan%2520class%253D%27fa%2520fa-heart%2520rating-icon%27%253E%253C%252Fspan%253E%250A%2520%2520%253Cspan%2520class%253D%27fa%2520fa-heart%2520rating-heart-checked%27%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A"
+                    style="width: 742px; height: 542px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                    <h3 class="component-variant-heading">Interactive Rating</h3>
+                    <span>This kind of rating can be used to capture user rating in real-time.</span>
+                    <div class="flex-space-btwn display-container">
+                       <div class="interactive-rating">
+                            <input type="radio" id="rate-5" class="rating-radio">
+                            <label for="rate-5" class="fa fa-star rating-label"></label>
+                            <input type="radio" id="rate-4" class="rating-radio">
+                            <label for="rate-4" class="fa fa-star rating-label"></label>
+                            <input type="radio" id="rate-3" class="rating-radio">
+                            <label for="rate-3" class="fa fa-star rating-label"></label>
+                            <input type="radio" id="rate-2" class="rating-radio">
+                            <label for="rate-2" class="fa fa-star rating-label"></label>
+                            <input type="radio" id="rate-1" class="rating-radio">
+                            <label for="rate-1" class="fa fa-star rating-label"></label>
+                       </div>
+                    </div>
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=htmlmixed&width=724&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253Cdiv%2520class%253D%2522interactive-rating%2522%253E%250A%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522rate-5%2522%2520class%253D%2522rating-radio%2522%253E%250A%2520%2520%253Clabel%2520for%253D%2522rate-5%2522%2520class%253D%2522fa%2520fa-star%2520rating-label%2522%253E%253C%252Flabel%253E%250A%2520%2520%250A%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522rate-4%2522%2520class%253D%2522rating-radio%2522%253E%250A%2520%2520%253Clabel%2520for%253D%2522rate-4%2522%2520class%253D%2522fa%2520fa-star%2520rating-label%2522%253E%253C%252Flabel%253E%250A%2520%2520%250A%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522rate-3%2522%2520class%253D%2522rating-radio%2522%253E%250A%2520%2520%253Clabel%2520for%253D%2522rate-3%2522%2520class%253D%2522fa%2520fa-star%2520rating-label%2522%253E%253C%252Flabel%253E%250A%2520%2520%250A%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522rate-2%2522%2520class%253D%2522rating-radio%2522%253E%250A%2520%2520%253Clabel%2520for%253D%2522rate-2%2522%2520class%253D%2522fa%2520fa-star%2520rating-label%2522%253E%253C%252Flabel%253E%250A%2520%2520%250A%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522rate-1%2522%2520class%253D%2522rating-radio%2522%253E%250A%2520%2520%253Clabel%2520for%253D%2522rate-1%2522%2520class%253D%2522fa%2520fa-star%2520rating-label%2522%253E%253C%252Flabel%253E%250A%253C%252Fdiv%253E%250A"
+                    style="width: 742px; height: 505px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/breezeUI.css">
+    <link rel='icon' href="assets/images/logo-sm.png">
+    <title>BreezeUI | Documentation</title>
+</head>
+<body>
+    <header class="flex-space-btwn">
+        <div class="flex-center">
+            <img class="header-logo" src="assets/images/logo-lg.png">
+            <a href="index.html" class="logo-name">BreezeUI</a>
+        </div>
+
+        <nav>
+            <a class="header-link link-icon icon" href="https://github.com/samyukthasudhakar/BreezeUI"><i class="fa fa-github"></i></a>
+        </nav>
+    </header>
+
+    <div class=" parent flex-layout container">
+        <!--aside bar to access different components-->
+        <aside class="flex-column aside-menu">
+            <span class="aside-menu-heading">Components</span>
+            <a class="aside-menu-link" href="#alerts">Alerts</a>
+            <a class="aside-menu-link" href="#avatar">Avatar</a>
+            <a class="aside-menu-link" href="#badge">Badge</a>
+            <a class="aside-menu-link" href="#button">Button</a>
+            <a class="aside-menu-link" href="#card">Card</a>
+            <a class="aside-menu-link" href="#image">Image</a>
+            <a class="aside-menu-link" href="#input">Input</a>
+            <a class="aside-menu-link" href="#text">Text</a>
+            <a class="aside-menu-link" href="#lists">Lists</a>
+            <a class="aside-menu-link" href="#nav">Navigation</a>
+            <a class="aside-menu-link" href="#modal">Modal</a>
+            <a class="aside-menu-link" href="#rating">Rating</a>
+            <a class="aside-menu-link" href="#toast">Toast</a>  
+            <a class="aside-menu-link" href="#grid">Grid</a>
+            <a class="aside-menu-link" href="#slider">Slider</a>
+        </aside>
+
+        <div class="flex-column component-listing">
+            <!-- Image Component -->
+            <section id="image" class="component-section">
+                <div class="component-container">
+                    <h2 class="component-heading">Images</h2>
+                    <span class="component-description">Images are multimedia elements added to make websites more interesting.
+                        The images can be formatted to have round and square borders. Responsive images can also be created which automatically
+                        adapt to the width of the container.
+                    </span>
+
+                    <h3 class="component-variant-heading">Round Image</h3>
+                    <img class="round-img" src="assets/images/forest-img.png">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=htmlmixed&width=767.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522round-img%2522%2520src%253D%2522assets%252Fimages%252Fforest-img.png%2522%253E"
+                    style="width: 767px; height: 189px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                    <h3 class="component-variant-heading">Square Image</h3>
+                    <img class="square-img" src="assets/images/forest-img.png">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=htmlmixed&width=767.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522square-img%2522%2520src%253D%2522assets%252Fimages%252Fforest-img.png%2522%253E"
+                    style="width: 767px; height: 189px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                    <h3 class="component-variant-heading">Responsive Image</h3>
+                    <div class="resize-container">
+                        <img class="responsive-img" src="assets/images/forest-img.png">
+                    </div>
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=htmlmixed&width=767.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522responsive-img%2522%2520src%253D%2522assets%252Fimages%252Fforest-img.png%2522%253E"
+                    style="width: 767px; height: 189px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                    
+                </div>
+            </section>
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

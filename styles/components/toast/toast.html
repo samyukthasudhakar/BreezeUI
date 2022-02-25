@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/breezeUI.css">
+    <link rel='icon' href="assets/images/logo-sm.png">
+    <title>BreezeUI | Documentation</title>
+</head>
+<body>
+    <header class="flex-space-btwn">
+        <div class="flex-center">
+            <img class="header-logo" src="assets/images/logo-lg.png">
+            <a href="index.html" class="logo-name">BreezeUI</a>
+        </div>
+
+        <nav>
+            <a class="header-link link-icon icon" href="https://github.com/samyukthasudhakar/BreezeUI"><i class="fa fa-github"></i></a>
+        </nav>
+    </header>
+
+    <div class=" parent flex-layout container">
+        <!--aside bar to access different components-->
+        <aside class="flex-column aside-menu">
+            <span class="aside-menu-heading">Components</span>
+            <a class="aside-menu-link" href="#alerts">Alerts</a>
+            <a class="aside-menu-link" href="#avatar">Avatar</a>
+            <a class="aside-menu-link" href="#badge">Badge</a>
+            <a class="aside-menu-link" href="#button">Button</a>
+            <a class="aside-menu-link" href="#card">Card</a>
+            <a class="aside-menu-link" href="#image">Image</a>
+            <a class="aside-menu-link" href="#input">Input</a>
+            <a class="aside-menu-link" href="#text">Text</a>
+            <a class="aside-menu-link" href="#lists">Lists</a>
+            <a class="aside-menu-link" href="#nav">Navigation</a>
+            <a class="aside-menu-link" href="#modal">Modal</a>
+            <a class="aside-menu-link" href="#rating">Rating</a>
+            <a class="aside-menu-link" href="#toast">Toast</a>  
+            <a class="aside-menu-link" href="#grid">Grid</a>
+            <a class="aside-menu-link" href="#slider">Slider</a>
+        </aside>
+
+        <div class="flex-column component-listing">
+            <!--Toast Component-->
+            <section id="toast" class="component-section">
+                <div class="component-container">
+                    <h2 class="component-heading">Toast</h2>
+                    <p class="component-description">
+                        It is a UI feature where an event causes a small text box to appear at the bottom of the screen. 
+                        The behavior seems like a piece of bread emerging from a toaster, thus the name.
+                    </p>
+
+                    <h3 class="component-variant-heading">Example of Toast</h3>
+                    <p> There are three types of toast - information, error and success toasts. They can be
+                        created by wrapping them within <span class="txt-bold">toast-info</span>, <span class="txt-bold">toast-error</span>, 
+                        <span class="txt-bold">toast-success</span> classes.
+                    </p>
+                    <div class="flex-space-btwn display-container">
+                        <span class="toast-example toast-success">Toast Message.</span>
+                        <span class="toast-example toast-error">Toast Message.</span>
+                        <span class="toast-example toast-info">Toast Message.</span>
+                    </div>
+
+                    <span class="toast toast-success">
+                        This is a sample toast message.
+                        This message will disappear in 3 seconds.
+                        <i class="fa fa-close toast-icon"></i>
+                    </span>
+                    <h3 class="component-variant-heading">Demo</h3>
+                    <div class="flex-space-btwn display-container">
+                        <button class="btn green-btn open-toast">Open Toast</button>
+                    </div>
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=htmlmixed&width=742&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253Cspan%2520class%253D%2522toast%2520toast-success%2522%253E%250A%2520%2520This%2520is%2520a%2520sample%2520toast%2520message.%250A%2520%2520This%2520message%2520will%2520disappear%2520in%25203%2520seconds.%250A%2520%2520%253Ci%2520class%253D%2522fa%2520fa-close%2520toast-icon%2522%253E%253C%252Fi%253E%250A%253C%252Fspan%253E%250A"
+                    style="width: 742px; height: 300px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                    <h3 class="component-variant-heading">Javascript</h3>
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=javascript&width=754&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%252F%252Ftoast%2520functionality%250AtoastMsg%2520%253D%2520document.querySelector%28%2522.toast%2522%29%253B%250AopenToast%2520%253D%2520document.querySelector%28%2522.open-toast%2522%29%253B%250A%250AopenToast.addEventListener%28%27click%27%252C%28%29%253D%253E%257B%250A%2520%2520%2520%2520toastMsg.style.display%253D%2522block%2522%253B%250A%2520%2520%2520%2520setTimeout%28%28%29%253D%253E%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520toastMsg.style.display%253D%2522none%2522%253B%250A%2520%2520%2520%2520%257D%252C3000%29%250A%257D%29%250A"
+                    style="width: 754px; height: 393px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

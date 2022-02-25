@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/breezeUI.css">
+    <link rel='icon' href="assets/images/logo-sm.png">
+    <title>BreezeUI | Documentation</title>
+</head>
+<body>
+    <header class="flex-space-btwn">
+        <div class="flex-center">
+            <img class="header-logo" src="assets/images/logo-lg.png">
+            <a href="index.html" class="logo-name">BreezeUI</a>
+        </div>
+
+        <nav>
+            <a class="header-link link-icon icon" href="https://github.com/samyukthasudhakar/BreezeUI"><i class="fa fa-github"></i></a>
+        </nav>
+    </header>
+
+    <div class=" parent flex-layout container">
+        <!--aside bar to access different components-->
+        <aside class="flex-column aside-menu">
+            <span class="aside-menu-heading">Components</span>
+            <a class="aside-menu-link" href="#alerts">Alerts</a>
+            <a class="aside-menu-link" href="#avatar">Avatar</a>
+            <a class="aside-menu-link" href="#badge">Badge</a>
+            <a class="aside-menu-link" href="#button">Button</a>
+            <a class="aside-menu-link" href="#card">Card</a>
+            <a class="aside-menu-link" href="#image">Image</a>
+            <a class="aside-menu-link" href="#input">Input</a>
+            <a class="aside-menu-link" href="#text">Text</a>
+            <a class="aside-menu-link" href="#lists">Lists</a>
+            <a class="aside-menu-link" href="#nav">Navigation</a>
+            <a class="aside-menu-link" href="#modal">Modal</a>
+            <a class="aside-menu-link" href="#rating">Rating</a>
+            <a class="aside-menu-link" href="#toast">Toast</a>  
+            <a class="aside-menu-link" href="#grid">Grid</a>
+            <a class="aside-menu-link" href="#slider">Slider</a>
+        </aside>
+
+        <div class="flex-column component-listing">
+            <!-- NavBar Component -->
+            <section id="nav" class="component-section">
+                <div class="component-container">
+                    <h2 class="component-heading">Navigation</h2>
+                    <span class="component-description">It is a section of a graphical user interface intended to aid visitors in accessing information. 
+                        Navigation bars are implemented in file browsers, web browsers and as a design element of some web sites.
+                    </span>
+                    <h3 class="component-variant-heading">Nav Bar</h3>
+                    <div class="mg-tb-1 nav-display-container">
+                        <header class="flex-space-btwn nav-container">
+                            <div class="flex-center">
+                                <img class="wd-3" src="assets/images/nav-logo.png" alt="nav bar logo">
+                                <h2 class="mg-l-0_5">Space&Co.</h2>
+                            </div>
+                            <div class="flex-layout search-bar">
+                                <input class="search-input p-sm" placeholder="What are you looking for ?">
+                                <i class="fa fa-search"></i>
+                            </div>
+                            <div>
+                                <i class="fa fa-shopping-cart nav-icon"></i>
+                                <i class="fa fa-heart nav-icon"></i>
+                                <i class="fa fa-user-circle-o nav-icon"></i>
+                            </div>
+                        </header>
+                    </div>
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=htmlmixed&width=742&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253Cheader%2520class%253D%2522flex-space-btwn%2520nav-container%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522flex-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522wd-3%2522%2520src%253D%2522assets%252Fimages%252Fnav-logo.png%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522nav%2520bar%2520logo%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522mg-l-0_5%2522%253ESpace%2526Co.%253C%252Fh2%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522flex-layout%2520search-bar%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522search-input%2520p-sm%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522What%2520are%2520you%2520looking%2520for%2520%253F%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-search%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2520nav-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-heart%2520nav-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-user-circle-o%2520nav-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fheader%253E%250A"
+                    style="width: 742px; height: 524px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                    <h3 class="component-variant-heading">Sub Menu</h3>
+                    <div class="display-container">
+                        <div class="dropdown">
+                            <button class="dropbtn">Dropdown <i class="fa fa-chevron-down"></i></button>
+                            <div class="dropdown-content">
+                                <a class="dropdown-link" href="#">Item 1</a>
+                                <a class="dropdown-link" href="#">Item 2</a>
+                                <a class="dropdown-link" href="#">Item 3</a>
+                            </div>   
+                        </div>
+                    </div>
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=htmlmixed&width=776.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522dropdown%2522%253E%250A%2520%2520%253Cbutton%2520class%253D%2522dropbtn%2522%253EDropdown%2520%253Ci%2520class%253D%2522fa%2520fa-chevron-down%2522%253E%253C%252Fi%253E%2509%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253Cdiv%2520class%253D%2522dropdown-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522dropdown-link%2522%2520href%253D%2522%2523%2522%253EItem%25201%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522dropdown-link%2522%2520href%253D%2522%2523%2522%253EItem%25202%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522dropdown-link%2522%2520href%253D%2522%2523%2522%253EItem%25203%253C%252Fa%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 777px; height: 354px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                    <h3 class="component-variant-heading">Hamburger Menu</h3>
+                    <div class="display-container">
+                        <button class="hamburger-menu-btn">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <div class="hamburger-menu-links">
+                            <a class="hamburger-menu-link" href="#news">News</a>
+                            <a class="hamburger-menu-link" href="#contact">Contact</a>
+                            <a class="hamburger-menu-link" href="#about">About</a>
+                        </div>
+                    </div>
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=htmlmixed&width=776.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522hamburger-menu-btn%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-bars%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Cdiv%2520class%253D%2522hamburger-menu-links%2522%253E%250A%2520%2520%2520%2520%253Ca%2520class%253D%2522hamburger-menu-link%2522%2520href%253D%2522%2523news%2522%253ENews%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ca%2520class%253D%2522hamburger-menu-link%2522%2520href%253D%2522%2523contact%2522%253EContact%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ca%2520class%253D%2522hamburger-menu-link%2522%2520href%253D%2522%2523about%2522%253EAbout%253C%252Fa%253E%250A%253C%252Fdiv%253E"
+                    style="width: 777px; height: 335px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                    <h3>Javascript</h3>
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=javascript&width=776.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252Fhamburger-menu%250Aconst%2520menuBtn%2520%253D%2520document.querySelector%28%2522.hamburger-menu-btn%2522%29%253B%250Aconst%2520menuLinks%2520%253D%2520document.querySelector%28%2522.hamburger-menu-links%2522%29%253B%250A%250AmenuBtn.addEventListener%28%27click%27%252C%28%29%253D%253E%257B%250A%2520%2520%2520%2520if%2520%28menuLinks.style.display%2520%253D%253D%2520%2522block%2522%29%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520menuBtn.innerHTML%2520%253D%2520%27%253Ci%2520class%253D%2522fa%2520fa-bars%2522%253E%253C%252Fi%253E%27%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520menuLinks.style.display%2520%253D%2520%2522none%2522%253B%250A%2520%2520%2520%2520%257Delse%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520menuBtn.innerHTML%2520%253D%2520%27%253Ci%2520class%253D%2522fa%2520fa-close%2522%253E%253C%252Fi%253E%27%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520menuLinks.style.display%2520%253D%2520%2522block%2522%253B%250A%2520%2520%2520%2520%257D%250A%257D%29"
+                    style="width: 777px; height: 411px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/breezeUI.css">
+    <link rel='icon' href="assets/images/logo-sm.png">
+    <title>BreezeUI | Documentation</title>
+</head>
+<body>
+    <header class="flex-space-btwn">
+        <div class="flex-center">
+            <img class="header-logo" src="assets/images/logo-lg.png">
+            <a href="index.html" class="logo-name">BreezeUI</a>
+        </div>
+
+        <nav>
+            <a class="header-link link-icon icon" href="https://github.com/samyukthasudhakar/BreezeUI"><i class="fa fa-github"></i></a>
+        </nav>
+    </header>
+
+    <div class=" parent flex-layout container">
+        <!--aside bar to access different components-->
+        <aside class="flex-column aside-menu">
+            <span class="aside-menu-heading">Components</span>
+            <a class="aside-menu-link" href="#alerts">Alerts</a>
+            <a class="aside-menu-link" href="#avatar">Avatar</a>
+            <a class="aside-menu-link" href="#badge">Badge</a>
+            <a class="aside-menu-link" href="#button">Button</a>
+            <a class="aside-menu-link" href="#card">Card</a>
+            <a class="aside-menu-link" href="#image">Image</a>
+            <a class="aside-menu-link" href="#input">Input</a>
+            <a class="aside-menu-link" href="#text">Text</a>
+            <a class="aside-menu-link" href="#lists">Lists</a>
+            <a class="aside-menu-link" href="#nav">Navigation</a>
+            <a class="aside-menu-link" href="#modal">Modal</a>
+            <a class="aside-menu-link" href="#rating">Rating</a>
+            <a class="aside-menu-link" href="#toast">Toast</a>  
+            <a class="aside-menu-link" href="#grid">Grid</a>
+            <a class="aside-menu-link" href="#slider">Slider</a>
+        </aside>
+
+        <div class="flex-column component-listing">
+            <!-- Modal Component -->
+            <section id="modal" class="component-section">
+                <div class="component-container">
+                    <h2 class="component-heading">Modal</h2>
+                    <span class="component-description">
+                        It is a web page element that is displayed in front of the screen 
+                        and deactivates all other page content including the ability to scroll.
+                    </span>
+
+                    <div class="display-container flex-column-center">
+                        <div class="flex-column-center modal-example">
+                            <button class="modal-cancel-demo"><i class="fa fa-close txt-md"></i></button>
+                            <h3>Confirmation</h3>
+                            <p class="p-sm">
+                                Are you sure you want to delete the account?
+                                This action cannot be undone and you will be unable to recover any data.
+                            </p>
+                            <div class="mg-tb-1">
+                                <button class="btn">Cancel</button>
+                                <button class="btn green-btn">Yes, I Agree !</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=htmlmixed&width=742&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253Cdiv%2520id%253D%2522modal%2522%2520class%253D%2522flex-column-center%2522%253E%250A%2520%2520%253Cbutton%2520id%253D%2522modal-cancel%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-close%2520txt-md%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253Ch3%253EConfirmation%253C%252Fh3%253E%250A%2520%2520%253Cp%2520class%253D%2522p-sm%2522%253E%250A%2520%2520%2520%2520%2520%2520Are%2520you%2520sure%2520you%2520want%2520to%2520delete%2520the%2520account%253F%250A%2520%2520%2520%2520%2520%2520This%2520action%2520cannot%2520be%2520undone%2520and%2520you%2520will%2520be%2520%250A%2520%2520%2520%2520%2520%2520unable%2520to%2520recover%2520any%2520data.%250A%2520%2520%253C%252Fp%253E%250A%2520%2520%253Cdiv%2520class%253D%2522mg-tb-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2522%253ECancel%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520green-btn%2520modal-open%2522%253EYes%252C%2520I%2520Agree%2520%21%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                    style="width: 742px; height: 487px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                    
+                    <h3>Javascript</h3>
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=javascript&width=742&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%252F%252F%2520close%2520modal%2520functionality%250AmodalBox%2520%253D%2520document.querySelector%28%2522%2523modal%2522%29%250AmodalOpen%2520%253D%2520document.querySelector%28%2522%2523modal-open%2522%29%250AmodalClose%2520%253D%2520document.querySelector%28%2522%2523modal-cancel%2522%29%250A%250AmodalOpen.addEventListener%28%27click%27%252C%28%29%253D%253E%257B%250A%2520%2520%2520%2520modalBox.style.display%2520%253D%2520%2522flex%2522%253B%250A%2520%2520%2520%2520document.body.style.overflow%2520%253D%2520%27hidden%27%253B%250A%257D%29%250A%250AmodalClose.addEventListener%28%27click%27%252C%28%29%253D%253E%257B%250A%2520%2520%2520%2520modalBox.style.display%2520%253D%2520%2522none%2522%253B%250A%2520%2520%2520%2520document.body.style.overflow%2520%253D%2520%27auto%27%253B%250A%2520%2520%2520%2520%250A%257D%29%250A"
+                    style="width: 742px; height: 487px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                    <div class="flex-column-center modal-container">
+                        <button class="modal-cancel"><i class="fa fa-close txt-md"></i></button>
+                        <h3>Confirmation</h3>
+                        <p class="p-sm">
+                            Are you sure you want to delete the account?
+                            This action cannot be undone and you will be unable to recover any data.
+                        </p>
+                        <div class="mg-tb-1">
+                            <button class="btn">Cancel</button>
+                            <button class="btn green-btn">Yes, I Agree !</button>
+                        </div>
+                    </div>
+                    
+                    <h3>Demo</h3>
+                    <div class="mg-tb-1 display-container">
+                        <button class="btn green-btn modal-open">Open Modal</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
